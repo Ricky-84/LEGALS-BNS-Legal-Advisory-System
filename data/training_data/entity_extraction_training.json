@@ -1,0 +1,5909 @@
+[
+  {
+    "user_query": "I found that my bag is missing from my restaurant. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my wallet from my bus without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "wallet"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My laptop was stolen from my home. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "home"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my laptop is missing from my park. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my laptop from my restaurant without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my mobile phone from my bus without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "mobile phone"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my money from my restaurant without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my money from my bag while I was in the bus. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my jewelry from my office without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my wallet from my bag while I was in the park. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "wallet"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My money was stolen from my bus. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my watch from my bag while I was in the restaurant. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "watch"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My money was stolen from my market. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my bag is missing from my office. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was stolen from my restaurant. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my wallet from my bag while I was in the park. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "wallet"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my mobile phone is missing from my restaurant. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "mobile phone"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my mobile phone from my bag while I was in the bus. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "mobile phone"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My laptop was stolen from my home. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "home"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my watch is missing from my bus. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "watch"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my jewelry is missing from my bus. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my laptop from my market without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my laptop from my bag while I was in the bus. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was stolen from my office. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my bag from my bus without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my laptop from my home without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "laptop"
+      ],
+      "locations": [
+        "home"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my bag from my restaurant without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my mobile phone from my park without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "mobile phone"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone took my bag from my market without asking. I left it on the table and when I came back it was gone.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my mobile phone from my bag while I was in the bus. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "mobile phone"
+      ],
+      "locations": [
+        "bus"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was stolen from my market. The accused person took it dishonestly without my consent.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person removed my bag from my bag while I was in the park. I did not give permission for this.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I found that my wallet is missing from my restaurant. Someone must have taken it without my knowledge.",
+    "extracted_entities": {
+      "objects": [
+        "wallet"
+      ],
+      "locations": [
+        "restaurant"
+      ],
+      "actions": [
+        "took",
+        "stolen",
+        "removed"
+      ],
+      "intentions": [
+        "without asking",
+        "without permission",
+        "dishonestly",
+        "without consent"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "from table",
+        "from bag",
+        "while away"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my purse while I was walking in bus stop.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my purse from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My purse was forcibly taken from me by someone in bus stop. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my bag from my hands in the market and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My phone was forcibly taken from me by someone in market. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My bag was forcibly taken from me by someone in bus stop. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my phone while I was walking in street.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my chain from my hands in the street and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "chain"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the street and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My chain was forcibly taken from me by someone in bus stop. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "chain"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my phone while I was walking in street.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my chain from my hands in the street and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "chain"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My bag was forcibly taken from me by someone in street. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my bag while I was walking in bus stop.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My bag was forcibly taken from me by someone in bus stop. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my bag while I was walking in bus stop.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My phone was forcibly taken from me by someone in street. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my bag from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My purse was forcibly taken from me by someone in market. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my purse from my hands in the street and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my purse from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my bag while I was walking in bus stop.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My chain was forcibly taken from me by someone in street. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "chain"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my purse from my hands in the bus stop and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my phone while I was walking in bus stop.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "bus stop"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my chain from my hands in the market and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "chain"
+      ],
+      "locations": [
+        "market"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My bag was forcibly taken from me by someone in street. They seized it suddenly.",
+    "extracted_entities": {
+      "objects": [
+        "bag"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone suddenly grabbed my phone from my hands in the street and ran away.",
+    "extracted_entities": {
+      "objects": [
+        "phone"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person quickly snatched my purse while I was walking in street.",
+    "extracted_entities": {
+      "objects": [
+        "purse"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "grabbed",
+        "snatched",
+        "seized",
+        "forcibly taken"
+      ],
+      "circumstances": [
+        "suddenly",
+        "quickly",
+        "ran away"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My valuables was taken from inside my home without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my home and stole my valuables. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my house and removed my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was taken from inside my room without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my apartment and stole my electronics. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my home and stole my jewelry. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My valuables was taken from inside my building without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "building",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my house and removed my money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my apartment and removed my valuables.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my house and stole my money. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my apartment and removed my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my room and removed my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my home and stole my electronics. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my apartment and stole my valuables. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my apartment and removed my electronics.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My money was taken from inside my room without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My money was taken from inside my home without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was taken from inside my house without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my house and removed my money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my apartment and stole my jewelry. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My jewelry was taken from inside my house without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my building and removed my money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "building",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my apartment and removed my money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "apartment",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My electronics was taken from inside my room without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My electronics was taken from inside my room without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My valuables was taken from inside my home without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my house and removed my electronics.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "house",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My electronics was taken from inside my home without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my building and removed my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry"
+      ],
+      "locations": [
+        "building",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My electronics was taken from inside my room without my permission.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my room and stole my valuables. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone entered my room and stole my electronics. I was not at home when this happened.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "room",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person broke into my home and removed my electronics.",
+    "extracted_entities": {
+      "objects": [
+        "electronics"
+      ],
+      "locations": [
+        "home",
+        "dwelling house"
+      ],
+      "actions": [
+        "entered",
+        "stole",
+        "taken",
+        "broke into",
+        "removed"
+      ],
+      "circumstances": [
+        "not at home",
+        "without permission"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An staff member in my shop dishonestly took money that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The employee working for me stole money from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An employee in my office dishonestly took supplies that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "supplies"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An staff member in my shop dishonestly took property that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The clerk working for me stole property from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "clerk",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The worker working for me stole equipment from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An staff member in my workplace dishonestly took equipment that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An employee in my company dishonestly took equipment that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The worker working for me stole money from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My clerk took equipment belonging to the company. As their owner, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "clerk",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An worker in my shop dishonestly took equipment that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "employer"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An servant in my workplace dishonestly took property that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "servant",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An clerk in my shop dishonestly took property that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "clerk",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An servant in my company dishonestly took equipment that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "servant",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The employee working for me stole equipment from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The clerk working for me stole equipment from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "store"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "clerk",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The employee working for me stole money from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My staff member took property belonging to the company. As their owner, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My servant took equipment belonging to the company. As their manager, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "servant",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An servant in my workplace dishonestly took equipment that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "equipment"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "servant",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The worker working for me stole money from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "store"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My employee took supplies belonging to the company. As their employer, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "supplies"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "employer"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An employee in my store dishonestly took money that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "store"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "employer"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My staff member took property belonging to the company. As their boss, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My worker took money belonging to the company. As their employer, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "employer"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The clerk working for me stole property from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "clerk",
+        "owner"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My servant took supplies belonging to the company. As their boss, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "supplies"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "servant",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An employee in my store dishonestly took supplies that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "supplies"
+      ],
+      "locations": [
+        "store"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "employer"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My worker took property belonging to the company. As their manager, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "An staff member in my shop dishonestly took property that belongs to the organization.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "shop"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "The staff member working for me stole supplies from the workplace.",
+    "extracted_entities": {
+      "objects": [
+        "supplies"
+      ],
+      "locations": [
+        "office"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "staff member",
+        "manager"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My employee took property belonging to the company. As their boss, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "locations": [
+        "company"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "employee",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "My worker took money belonging to the company. As their boss, I trusted them with access.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "locations": [
+        "workplace"
+      ],
+      "actions": [
+        "took",
+        "stole",
+        "dishonestly took"
+      ],
+      "persons": [
+        "employee",
+        "employer",
+        "worker",
+        "boss"
+      ],
+      "relationships": [
+        "employee-employer",
+        "worker-boss"
+      ],
+      "circumstances": [
+        "trusted with access",
+        "from workplace"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would damage my property unless I gave them valuables.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would cause hurt unless I gave them property.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give money because someone threatened to cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would cause hurt unless I gave them valuables.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them valuables or they would cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would damage my property unless I gave them money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them valuables or they would harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would harm my family unless I gave them money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them money or they would damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them valuables or they would harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give money because someone threatened to harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would spread false information unless I gave them property.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "spread false information",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them valuables or they would damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give valuables because someone threatened to cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them property or they would spread false information.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "spread false information",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give valuables because someone threatened to damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would harm my family unless I gave them property.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them money or they would harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them money or they would spread false information.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "spread false information",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would harm my family unless I gave them valuables.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them money or they would harm my family.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give valuables because someone threatened to spread false information.",
+    "extracted_entities": {
+      "objects": [
+        "valuables"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "spread false information",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give property because someone threatened to cause hurt.",
+    "extracted_entities": {
+      "objects": [
+        "property"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "cause hurt",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was forced to give money because someone threatened to damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone threatened me to give them money or they would damage my property.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "damage my property",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would harm my family unless I gave them money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "harm my family",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person put me in fear by saying they would spread false information unless I gave them money.",
+    "extracted_entities": {
+      "objects": [
+        "money"
+      ],
+      "actions": [
+        "threatened",
+        "forced",
+        "put in fear"
+      ],
+      "intentions": [
+        "to give",
+        "unless given"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "spread false information",
+        "under threat"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my jewelry was taken by force in alley.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "stick"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my jewelry was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used gun to threaten me and took my jewelry in alley.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "gun"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used stick to threaten me and took my phone in park.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "stick"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used stick to threaten me and took my jewelry in alley.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "stick"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me wrongful restraint while stealing my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "knife"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used knife to threaten me and took my jewelry in road.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "knife"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my jewelry was taken by force in street.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "knife"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my wallet was taken by force in street.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "knife"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me physical harm while stealing my wallet.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my wallet was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me hurt while stealing my phone.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "weapon"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my phone was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me injury while stealing my bag.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "knife"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used knife to threaten me and took my bag in road.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "knife"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me injury while stealing my jewelry.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "knife"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my phone was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "stick"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used weapon to threaten me and took my phone in road.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used stick to threaten me and took my phone in alley.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "stick"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my bag was taken by force in park.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "gun"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used knife to threaten me and took my jewelry in road.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "knife"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my bag was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my bag was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "knife"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me physical harm while stealing my phone.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "stick"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used stick to threaten me and took my phone in street.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "stick"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "physical harm",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used knife to threaten me and took my bag in street.",
+    "extracted_entities": {
+      "objects": [
+        "bag",
+        "knife"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my jewelry was taken by force in street.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "weapon"
+      ],
+      "locations": [
+        "street"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me wrongful restraint while stealing my wallet.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "knife"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my jewelry was taken by force in park.",
+    "extracted_entities": {
+      "objects": [
+        "jewelry",
+        "gun"
+      ],
+      "locations": [
+        "park"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used gun to threaten me and took my phone in alley.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "gun"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "injury",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "Someone used stick to threaten me and took my wallet in alley.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "stick"
+      ],
+      "locations": [
+        "alley"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "wrongful restraint",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "I was attacked and my phone was taken by force in road.",
+    "extracted_entities": {
+      "objects": [
+        "phone",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  },
+  {
+    "user_query": "A person caused me hurt while stealing my wallet.",
+    "extracted_entities": {
+      "objects": [
+        "wallet",
+        "weapon"
+      ],
+      "locations": [
+        "road"
+      ],
+      "actions": [
+        "threatened",
+        "took",
+        "attacked",
+        "stealing",
+        "taken by force"
+      ],
+      "persons": [
+        "accused",
+        "victim"
+      ],
+      "circumstances": [
+        "hurt",
+        "under threat",
+        "by force"
+      ]
+    },
+    "task": "entity_extraction",
+    "language": "en"
+  }
+]

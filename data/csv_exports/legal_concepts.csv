@@ -1,0 +1,21 @@
+concept_id,concept_name,concept_type,description
+CONCEPT_001,theft,legal_term,Legal concept: theft
+CONCEPT_002,snatching,legal_term,Legal concept: snatching
+CONCEPT_003,extortion,legal_term,Legal concept: extortion
+CONCEPT_004,robbery,legal_term,Legal concept: robbery
+CONCEPT_005,dacoity,legal_term,Legal concept: dacoity
+CONCEPT_006,misappropriation,legal_term,Legal concept: misappropriation
+CONCEPT_007,breach,legal_term,Legal concept: breach
+CONCEPT_008,trust,legal_term,Legal concept: trust
+CONCEPT_009,cheating,legal_term,Legal concept: cheating
+CONCEPT_010,mischief,legal_term,Legal concept: mischief
+CONCEPT_011,trespass,legal_term,Legal concept: trespass
+CONCEPT_012,property,legal_term,Legal concept: property
+CONCEPT_013,dwelling,legal_term,Legal concept: dwelling
+CONCEPT_014,movable,legal_term,Legal concept: movable
+CONCEPT_015,dishonest,legal_term,Legal concept: dishonest
+CONCEPT_016,possession,legal_term,Legal concept: possession
+CONCEPT_017,consent,legal_term,Legal concept: consent
+CONCEPT_018,force,legal_term,Legal concept: force
+CONCEPT_019,violence,legal_term,Legal concept: violence
+CONCEPT_020,criminal,legal_term,Legal concept: criminal

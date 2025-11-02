@@ -1,0 +1,7 @@
+type_id,type_name,description
+TYPE_001,objects,Physical objects that can be stolen or damaged
+TYPE_002,locations,Places where offenses occur
+TYPE_003,actions,Criminal actions or behaviors
+TYPE_004,intentions,Criminal intent or motivation
+TYPE_005,persons,People involved in the offense
+TYPE_006,circumstances,Situational factors

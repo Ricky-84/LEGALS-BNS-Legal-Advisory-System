@@ -1,0 +1,51 @@
+# Dependencies
+frontend/node_modules/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/*/__pycache__/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Build files
+dist/
+build/
+
+# Neo4j data directory (contains large database files)
+neo4j/data/
+neo4j/logs/
+
+# Temporary files
+*.tmp
+*.temp

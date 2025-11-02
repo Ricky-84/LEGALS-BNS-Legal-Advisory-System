@@ -1,0 +1,146 @@
+[
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-303",
+          "title": "Theft",
+          "description": "Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. Pun...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Based on your description, this appears to involve theft under BNS Section 303. \n\n**What the law says:**\nTaking someone's movable property without their consent with dishonest intention constitutes theft.\n\n**Possible legal action:**\n- File a police complaint (FIR)\n- The offense is bailable and cognizable\n- Punishment can include imprisonment up to 3 years and/or fine\n\n**Next steps:**\n1. Report to the nearest police station immediately\n2. Gather any evidence (witnesses, CCTV, etc.)\n3. Consult with a criminal lawyer for legal guidance\n\n**Important:** This is preliminary legal information only. Please consult a qualified lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 303
+  },
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-304",
+          "title": "Snatching",
+          "description": "Theft is snatching if, in order to commit theft, the offender suddenly or quickly or forcibly seizes or secures or grabs or takes away from any person or from his possession any movable property. Puni...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Your situation appears to involve snatching under BNS Section 304.\n\n**What the law says:**\nSuddenly, quickly, or forcibly seizing property from a person constitutes snatching.\n\n**Possible legal action:**\n- File FIR for snatching\n- The offense is cognizable\n- Punishment includes imprisonment up to 3 years and fine\n\n**Next steps:**\n1. Report to police immediately with details\n2. Provide description of the accused if possible\n3. Seek medical attention if injured\n\n**Important:** This is preliminary legal information only. Please consult a qualified lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 304
+  },
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-305",
+          "title": "Theft in dwelling house",
+          "description": "Whoever commits theft in any building, tent or vessel used as a human dwelling or used for the custody of property, shall be punished with imprisonment for a term which may extend to seven years, and ...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Based on your description, this may involve BNS Section 305.\n\n**Legal Analysis:**\nThe situation described contains elements that may fall under property offense laws.\n\n**Recommended Actions:**\n1. Report to police authorities\n2. Gather supporting evidence\n3. Consult with a qualified lawyer\n\n**Important:** This is preliminary legal information only. Always consult a lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 305
+  },
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-306",
+          "title": "Theft by employee",
+          "description": "Whoever, being a clerk or servant, or being employed in the capacity of a clerk or servant, commits theft in respect of any property in the possession of his master or employer, shall be punished with...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Based on your description, this may involve BNS Section 306.\n\n**Legal Analysis:**\nThe situation described contains elements that may fall under property offense laws.\n\n**Recommended Actions:**\n1. Report to police authorities\n2. Gather supporting evidence\n3. Consult with a qualified lawyer\n\n**Important:** This is preliminary legal information only. Always consult a lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 306
+  },
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-308",
+          "title": "Extortion",
+          "description": "Whoever intentionally puts any person in fear of any injury to that person, or to any other, and thereby dishonestly induces the person so put in fear to deliver to any person any property, commits ex...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Based on your description, this may involve BNS Section 308.\n\n**Legal Analysis:**\nThe situation described contains elements that may fall under property offense laws.\n\n**Recommended Actions:**\n1. Report to police authorities\n2. Gather supporting evidence\n3. Consult with a qualified lawyer\n\n**Important:** This is preliminary legal information only. Always consult a lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 308
+  },
+  {
+    "legal_analysis": {
+      "applicable_laws": [
+        {
+          "section": "BNS-309",
+          "title": "Robbery",
+          "description": "Theft is robbery if, in order to the committing of the theft, or in committing the theft, or in carrying away property obtained by the theft, the offender voluntarily causes or attempts to cause to an...",
+          "confidence": 0.85
+        }
+      ],
+      "entities": {
+        "objects": [
+          "property"
+        ],
+        "actions": [
+          "theft"
+        ]
+      },
+      "confidence_score": 0.85
+    },
+    "citizen_friendly_response": "Based on your description, this may involve BNS Section 309.\n\n**Legal Analysis:**\nThe situation described contains elements that may fall under property offense laws.\n\n**Recommended Actions:**\n1. Report to police authorities\n2. Gather supporting evidence\n3. Consult with a qualified lawyer\n\n**Important:** This is preliminary legal information only. Always consult a lawyer for actionable advice.",
+    "task": "template_response_formation",
+    "section": 309
+  }
+]

@@ -1,0 +1,101 @@
+query_id,user_query,language,task
+QUERY_001,I found that my bag is missing from my restaurant. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_002,Someone took my wallet from my bus without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_003,My laptop was stolen from my home. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_004,I found that my laptop is missing from my park. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_005,Someone took my laptop from my restaurant without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_006,Someone took my mobile phone from my bus without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_007,Someone took my money from my restaurant without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_008,A person removed my money from my bag while I was in the bus. I did not give permission for this.,en,entity_extraction
+QUERY_009,Someone took my jewelry from my office without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_010,A person removed my wallet from my bag while I was in the park. I did not give permission for this.,en,entity_extraction
+QUERY_011,My money was stolen from my bus. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_012,A person removed my watch from my bag while I was in the restaurant. I did not give permission for this.,en,entity_extraction
+QUERY_013,My money was stolen from my market. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_014,I found that my bag is missing from my office. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_015,My jewelry was stolen from my restaurant. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_016,A person removed my wallet from my bag while I was in the park. I did not give permission for this.,en,entity_extraction
+QUERY_017,I found that my mobile phone is missing from my restaurant. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_018,A person removed my mobile phone from my bag while I was in the bus. I did not give permission for this.,en,entity_extraction
+QUERY_019,My laptop was stolen from my home. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_020,I found that my watch is missing from my bus. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_021,I found that my jewelry is missing from my bus. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_022,Someone took my laptop from my market without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_023,A person removed my laptop from my bag while I was in the bus. I did not give permission for this.,en,entity_extraction
+QUERY_024,My jewelry was stolen from my office. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_025,Someone took my bag from my bus without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_026,Someone took my laptop from my home without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_027,Someone took my bag from my restaurant without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_028,Someone took my mobile phone from my park without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_029,Someone took my bag from my market without asking. I left it on the table and when I came back it was gone.,en,entity_extraction
+QUERY_030,A person removed my mobile phone from my bag while I was in the bus. I did not give permission for this.,en,entity_extraction
+QUERY_031,My jewelry was stolen from my market. The accused person took it dishonestly without my consent.,en,entity_extraction
+QUERY_032,A person removed my bag from my bag while I was in the park. I did not give permission for this.,en,entity_extraction
+QUERY_033,I found that my wallet is missing from my restaurant. Someone must have taken it without my knowledge.,en,entity_extraction
+QUERY_034,A person quickly snatched my purse while I was walking in bus stop.,en,entity_extraction
+QUERY_035,Someone suddenly grabbed my purse from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_036,My purse was forcibly taken from me by someone in bus stop. They seized it suddenly.,en,entity_extraction
+QUERY_037,Someone suddenly grabbed my bag from my hands in the market and ran away.,en,entity_extraction
+QUERY_038,My phone was forcibly taken from me by someone in market. They seized it suddenly.,en,entity_extraction
+QUERY_039,Someone suddenly grabbed my phone from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_040,Someone suddenly grabbed my phone from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_041,Someone suddenly grabbed my phone from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_042,My bag was forcibly taken from me by someone in bus stop. They seized it suddenly.,en,entity_extraction
+QUERY_043,A person quickly snatched my phone while I was walking in street.,en,entity_extraction
+QUERY_044,Someone suddenly grabbed my chain from my hands in the street and ran away.,en,entity_extraction
+QUERY_045,Someone suddenly grabbed my phone from my hands in the street and ran away.,en,entity_extraction
+QUERY_046,My chain was forcibly taken from me by someone in bus stop. They seized it suddenly.,en,entity_extraction
+QUERY_047,A person quickly snatched my phone while I was walking in street.,en,entity_extraction
+QUERY_048,Someone suddenly grabbed my chain from my hands in the street and ran away.,en,entity_extraction
+QUERY_049,My bag was forcibly taken from me by someone in street. They seized it suddenly.,en,entity_extraction
+QUERY_050,A person quickly snatched my bag while I was walking in bus stop.,en,entity_extraction
+QUERY_051,My bag was forcibly taken from me by someone in bus stop. They seized it suddenly.,en,entity_extraction
+QUERY_052,A person quickly snatched my bag while I was walking in bus stop.,en,entity_extraction
+QUERY_053,My phone was forcibly taken from me by someone in street. They seized it suddenly.,en,entity_extraction
+QUERY_054,Someone suddenly grabbed my bag from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_055,My purse was forcibly taken from me by someone in market. They seized it suddenly.,en,entity_extraction
+QUERY_056,Someone suddenly grabbed my purse from my hands in the street and ran away.,en,entity_extraction
+QUERY_057,Someone suddenly grabbed my phone from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_058,Someone suddenly grabbed my purse from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_059,A person quickly snatched my bag while I was walking in bus stop.,en,entity_extraction
+QUERY_060,My chain was forcibly taken from me by someone in street. They seized it suddenly.,en,entity_extraction
+QUERY_061,Someone suddenly grabbed my purse from my hands in the bus stop and ran away.,en,entity_extraction
+QUERY_062,A person quickly snatched my phone while I was walking in bus stop.,en,entity_extraction
+QUERY_063,Someone suddenly grabbed my chain from my hands in the market and ran away.,en,entity_extraction
+QUERY_064,My bag was forcibly taken from me by someone in street. They seized it suddenly.,en,entity_extraction
+QUERY_065,Someone suddenly grabbed my phone from my hands in the street and ran away.,en,entity_extraction
+QUERY_066,A person quickly snatched my purse while I was walking in street.,en,entity_extraction
+QUERY_067,My valuables was taken from inside my home without my permission.,en,entity_extraction
+QUERY_068,Someone entered my home and stole my valuables. I was not at home when this happened.,en,entity_extraction
+QUERY_069,A person broke into my house and removed my jewelry.,en,entity_extraction
+QUERY_070,My jewelry was taken from inside my room without my permission.,en,entity_extraction
+QUERY_071,Someone entered my apartment and stole my electronics. I was not at home when this happened.,en,entity_extraction
+QUERY_072,Someone entered my home and stole my jewelry. I was not at home when this happened.,en,entity_extraction
+QUERY_073,My valuables was taken from inside my building without my permission.,en,entity_extraction
+QUERY_074,A person broke into my house and removed my money.,en,entity_extraction
+QUERY_075,A person broke into my apartment and removed my valuables.,en,entity_extraction
+QUERY_076,Someone entered my house and stole my money. I was not at home when this happened.,en,entity_extraction
+QUERY_077,A person broke into my apartment and removed my jewelry.,en,entity_extraction
+QUERY_078,A person broke into my room and removed my jewelry.,en,entity_extraction
+QUERY_079,Someone entered my home and stole my electronics. I was not at home when this happened.,en,entity_extraction
+QUERY_080,Someone entered my apartment and stole my valuables. I was not at home when this happened.,en,entity_extraction
+QUERY_081,A person broke into my apartment and removed my electronics.,en,entity_extraction
+QUERY_082,My money was taken from inside my room without my permission.,en,entity_extraction
+QUERY_083,My money was taken from inside my home without my permission.,en,entity_extraction
+QUERY_084,My jewelry was taken from inside my house without my permission.,en,entity_extraction
+QUERY_085,A person broke into my house and removed my money.,en,entity_extraction
+QUERY_086,Someone entered my apartment and stole my jewelry. I was not at home when this happened.,en,entity_extraction
+QUERY_087,My jewelry was taken from inside my house without my permission.,en,entity_extraction
+QUERY_088,A person broke into my building and removed my money.,en,entity_extraction
+QUERY_089,A person broke into my apartment and removed my money.,en,entity_extraction
+QUERY_090,My electronics was taken from inside my room without my permission.,en,entity_extraction
+QUERY_091,My electronics was taken from inside my room without my permission.,en,entity_extraction
+QUERY_092,My valuables was taken from inside my home without my permission.,en,entity_extraction
+QUERY_093,A person broke into my house and removed my electronics.,en,entity_extraction
+QUERY_094,My electronics was taken from inside my home without my permission.,en,entity_extraction
+QUERY_095,A person broke into my building and removed my jewelry.,en,entity_extraction
+QUERY_096,My electronics was taken from inside my room without my permission.,en,entity_extraction
+QUERY_097,Someone entered my room and stole my valuables. I was not at home when this happened.,en,entity_extraction
+QUERY_098,Someone entered my room and stole my electronics. I was not at home when this happened.,en,entity_extraction
+QUERY_099,A person broke into my home and removed my electronics.,en,entity_extraction
+QUERY_100,An staff member in my shop dishonestly took money that belongs to the organization.,en,entity_extraction

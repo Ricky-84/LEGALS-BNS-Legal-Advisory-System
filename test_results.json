@@ -1,0 +1,68 @@
+{
+  "test_scenario": {
+    "entities": {
+      "persons": [
+        "thief"
+      ],
+      "objects": [
+        "iPhone",
+        "wallet"
+      ],
+      "locations": [
+        "house"
+      ],
+      "actions": [
+        "stolen"
+      ],
+      "intentions": [
+        "theft"
+      ],
+      "circumstances": [],
+      "relationships": []
+    }
+  },
+  "legal_analysis": {
+    "applicable_laws": [
+      {
+        "section": "BNS-303",
+        "title": "Theft",
+        "description": "Whoever intending to take dishonestly any movable property out of the possession of any person without that persons consent moves that property in order to such taking is said to commit theft",
+        "punishment": "Imprisonment for a term which may extend to three years or with fine or with both. In cases where the value of stolen property is less than five thousand rupees and person is convicted for the first time shall be punished with community service",
+        "severity": "imprisonment_and_fine",
+        "offence_type": "theft",
+        "confidence": 0.8,
+        "reasoning": "Basic theft elements detected",
+        "property_value_consideration": true,
+        "property_analysis": [
+          {
+            "item": "iPhone",
+            "description": "",
+            "estimated_value": 60000,
+            "confidence": "medium",
+            "basis": "Generic iPhone price"
+          },
+          {
+            "item": "wallet",
+            "description": "",
+            "estimated_value": 10000,
+            "confidence": "low",
+            "basis": "Generic property estimation"
+          }
+        ]
+      },
+      {
+        "section": "BNS-305",
+        "title": "Theft in dwelling house or transport",
+        "description": "Whoever commits theft in any building tent or vessel used as human dwelling or for custody of property or of any means of transport or from any means of transport or of idol or icon in place of worship or of any property of Government or local authority",
+        "punishment": "Imprisonment for a term which may extend to seven years and shall also be liable to fine",
+        "severity": "imprisonment_and_fine",
+        "offence_type": "dwelling_theft",
+        "confidence": 0.9,
+        "reasoning": "Theft in dwelling house detected"
+      }
+    ],
+    "confidence_score": 1.0,
+    "reasoning_method": "neo4j_graph_enhanced",
+    "property_value_analysis": true
+  }
+}

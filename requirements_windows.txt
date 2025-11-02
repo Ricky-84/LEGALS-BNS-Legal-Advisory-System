@@ -1,0 +1,33 @@
+# FastAPI Backend Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Database Dependencies
+neo4j==5.14.1
+psycopg2-binary>=2.9.9  # Using >= to allow newer versions with Windows wheels
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# AI/ML Dependencies
+ollama==0.1.9
+requests==2.31.0
+numpy>=1.24.3  # Using >= to get prebuilt wheels
+
+# External Services (Optional - commented out for basic setup)
+# azure-cognitiveservices-speech==1.34.0
+# google-cloud-speech==2.21.0
+# Note: azure-translator-text package not available, use azure-ai-translation-text instead if needed
+
+# Utilities
+python-dotenv==1.0.0
+python-multipart==0.0.6
+pydantic>=2.5.0  # Using >= to get prebuilt wheels for Python 3.13
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Development Dependencies
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0

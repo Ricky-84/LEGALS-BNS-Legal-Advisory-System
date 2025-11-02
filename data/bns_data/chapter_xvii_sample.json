@@ -1,0 +1,84 @@
+{
+  "chapter": "XVII",
+  "title": "Of Offences Against Property",
+  "sections": [
+    {
+      "section_id": "BNS-303",
+      "title": "Theft",
+      "description": "Whoever intends to take dishonestly any moveable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft.",
+      "explanation": "This section defines the basic offense of theft, requiring dishonest intention and taking moveable property without consent.",
+      "punishment": "Imprisonment for a term which may extend to three years, or with fine, or with both",
+      "bailable": true,
+      "cognizable": true,
+      "severity": "moderate",
+      "keywords": ["theft", "dishonestly", "moveable property", "possession", "consent", "taking"],
+      "example_scenarios": [
+        "Taking someone's mobile phone without permission",
+        "Stealing money from a wallet",
+        "Removing jewelry from a person's possession without consent"
+      ]
+    },
+    {
+      "section_id": "BNS-304", 
+      "title": "Theft in dwelling house",
+      "description": "Whoever commits theft in any building, tent or vessel used as a human dwelling or used for the custody of property, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "explanation": "Enhanced punishment for theft committed in dwelling places due to violation of domestic security.",
+      "punishment": "Imprisonment for a term which may extend to seven years, and shall also be liable to fine",
+      "bailable": false,
+      "cognizable": true, 
+      "severity": "high",
+      "keywords": ["theft", "dwelling", "building", "tent", "vessel", "custody", "human dwelling"],
+      "example_scenarios": [
+        "Stealing items from someone's house",
+        "Taking property from a residential building",
+        "Theft from a boat used as residence"
+      ]
+    },
+    {
+      "section_id": "BNS-305",
+      "title": "Theft by clerk or servant of property in possession of master",
+      "description": "Whoever, being a clerk or servant or employed in the capacity of a clerk or servant, commits theft in respect of any property in the possession of his master or employer, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.",
+      "explanation": "Breach of trust by employees who steal from their employers carries enhanced punishment.",
+      "punishment": "Imprisonment for a term which may extend to seven years, and shall also be liable to fine", 
+      "bailable": false,
+      "cognizable": true,
+      "severity": "high",
+      "keywords": ["theft", "clerk", "servant", "employee", "master", "employer", "breach of trust"],
+      "example_scenarios": [
+        "Office employee stealing company equipment", 
+        "House help taking valuables from employer",
+        "Shop assistant stealing merchandise"
+      ]
+    }
+  ],
+  "entity_patterns": {
+    "theft_indicators": {
+      "actions": ["took", "stolen", "stole", "theft", "stealing", "grabbed", "snatched", "removed", "taken away"],
+      "objects": ["phone", "mobile", "wallet", "money", "cash", "bag", "purse", "jewelry", "watch", "laptop", "vehicle"],
+      "intentions": ["without permission", "dishonestly", "wrongfully", "unlawfully", "without consent"],
+      "locations": ["house", "home", "apartment", "building", "office", "shop", "dwelling", "residence"],
+      "persons": ["owner", "victim", "accused", "thief", "employee", "employer", "clerk", "servant"],
+      "circumstances": ["public place", "private property", "workplace", "during night", "in presence of others"]
+    }
+  },
+  "legal_reasoning_rules": [
+    {
+      "rule_name": "basic_theft",
+      "conditions": ["theft_action", "moveable_property", "without_consent"],
+      "applicable_section": "BNS-303",
+      "confidence": 0.8
+    },
+    {
+      "rule_name": "dwelling_theft", 
+      "conditions": ["theft_action", "dwelling_location", "property_in_dwelling"],
+      "applicable_section": "BNS-304",
+      "confidence": 0.9
+    },
+    {
+      "rule_name": "employee_theft",
+      "conditions": ["theft_action", "employee_relationship", "employer_property"],
+      "applicable_section": "BNS-305", 
+      "confidence": 0.85
+    }
+  ]
+}

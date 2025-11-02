@@ -1,0 +1,1235 @@
+entity_id,entity_type,entity_value,query_id
+ENTITY_0001,objects,bag,QUERY_001
+ENTITY_0002,locations,restaurant,QUERY_001
+ENTITY_0003,actions,took,QUERY_001
+ENTITY_0004,actions,stolen,QUERY_001
+ENTITY_0005,actions,removed,QUERY_001
+ENTITY_0006,intentions,without asking,QUERY_001
+ENTITY_0007,intentions,without permission,QUERY_001
+ENTITY_0008,intentions,dishonestly,QUERY_001
+ENTITY_0009,intentions,without consent,QUERY_001
+ENTITY_0010,persons,accused,QUERY_001
+ENTITY_0011,persons,victim,QUERY_001
+ENTITY_0012,circumstances,from table,QUERY_001
+ENTITY_0013,circumstances,from bag,QUERY_001
+ENTITY_0014,circumstances,while away,QUERY_001
+ENTITY_0015,objects,wallet,QUERY_002
+ENTITY_0016,locations,bus,QUERY_002
+ENTITY_0017,actions,took,QUERY_002
+ENTITY_0018,actions,stolen,QUERY_002
+ENTITY_0019,actions,removed,QUERY_002
+ENTITY_0020,intentions,without asking,QUERY_002
+ENTITY_0021,intentions,without permission,QUERY_002
+ENTITY_0022,intentions,dishonestly,QUERY_002
+ENTITY_0023,intentions,without consent,QUERY_002
+ENTITY_0024,persons,accused,QUERY_002
+ENTITY_0025,persons,victim,QUERY_002
+ENTITY_0026,circumstances,from table,QUERY_002
+ENTITY_0027,circumstances,from bag,QUERY_002
+ENTITY_0028,circumstances,while away,QUERY_002
+ENTITY_0029,objects,laptop,QUERY_003
+ENTITY_0030,locations,home,QUERY_003
+ENTITY_0031,actions,took,QUERY_003
+ENTITY_0032,actions,stolen,QUERY_003
+ENTITY_0033,actions,removed,QUERY_003
+ENTITY_0034,intentions,without asking,QUERY_003
+ENTITY_0035,intentions,without permission,QUERY_003
+ENTITY_0036,intentions,dishonestly,QUERY_003
+ENTITY_0037,intentions,without consent,QUERY_003
+ENTITY_0038,persons,accused,QUERY_003
+ENTITY_0039,persons,victim,QUERY_003
+ENTITY_0040,circumstances,from table,QUERY_003
+ENTITY_0041,circumstances,from bag,QUERY_003
+ENTITY_0042,circumstances,while away,QUERY_003
+ENTITY_0043,objects,laptop,QUERY_004
+ENTITY_0044,locations,park,QUERY_004
+ENTITY_0045,actions,took,QUERY_004
+ENTITY_0046,actions,stolen,QUERY_004
+ENTITY_0047,actions,removed,QUERY_004
+ENTITY_0048,intentions,without asking,QUERY_004
+ENTITY_0049,intentions,without permission,QUERY_004
+ENTITY_0050,intentions,dishonestly,QUERY_004
+ENTITY_0051,intentions,without consent,QUERY_004
+ENTITY_0052,persons,accused,QUERY_004
+ENTITY_0053,persons,victim,QUERY_004
+ENTITY_0054,circumstances,from table,QUERY_004
+ENTITY_0055,circumstances,from bag,QUERY_004
+ENTITY_0056,circumstances,while away,QUERY_004
+ENTITY_0057,objects,laptop,QUERY_005
+ENTITY_0058,locations,restaurant,QUERY_005
+ENTITY_0059,actions,took,QUERY_005
+ENTITY_0060,actions,stolen,QUERY_005
+ENTITY_0061,actions,removed,QUERY_005
+ENTITY_0062,intentions,without asking,QUERY_005
+ENTITY_0063,intentions,without permission,QUERY_005
+ENTITY_0064,intentions,dishonestly,QUERY_005
+ENTITY_0065,intentions,without consent,QUERY_005
+ENTITY_0066,persons,accused,QUERY_005
+ENTITY_0067,persons,victim,QUERY_005
+ENTITY_0068,circumstances,from table,QUERY_005
+ENTITY_0069,circumstances,from bag,QUERY_005
+ENTITY_0070,circumstances,while away,QUERY_005
+ENTITY_0071,objects,mobile phone,QUERY_006
+ENTITY_0072,locations,bus,QUERY_006
+ENTITY_0073,actions,took,QUERY_006
+ENTITY_0074,actions,stolen,QUERY_006
+ENTITY_0075,actions,removed,QUERY_006
+ENTITY_0076,intentions,without asking,QUERY_006
+ENTITY_0077,intentions,without permission,QUERY_006
+ENTITY_0078,intentions,dishonestly,QUERY_006
+ENTITY_0079,intentions,without consent,QUERY_006
+ENTITY_0080,persons,accused,QUERY_006
+ENTITY_0081,persons,victim,QUERY_006
+ENTITY_0082,circumstances,from table,QUERY_006
+ENTITY_0083,circumstances,from bag,QUERY_006
+ENTITY_0084,circumstances,while away,QUERY_006
+ENTITY_0085,objects,money,QUERY_007
+ENTITY_0086,locations,restaurant,QUERY_007
+ENTITY_0087,actions,took,QUERY_007
+ENTITY_0088,actions,stolen,QUERY_007
+ENTITY_0089,actions,removed,QUERY_007
+ENTITY_0090,intentions,without asking,QUERY_007
+ENTITY_0091,intentions,without permission,QUERY_007
+ENTITY_0092,intentions,dishonestly,QUERY_007
+ENTITY_0093,intentions,without consent,QUERY_007
+ENTITY_0094,persons,accused,QUERY_007
+ENTITY_0095,persons,victim,QUERY_007
+ENTITY_0096,circumstances,from table,QUERY_007
+ENTITY_0097,circumstances,from bag,QUERY_007
+ENTITY_0098,circumstances,while away,QUERY_007
+ENTITY_0099,objects,money,QUERY_008
+ENTITY_0100,locations,bus,QUERY_008
+ENTITY_0101,actions,took,QUERY_008
+ENTITY_0102,actions,stolen,QUERY_008
+ENTITY_0103,actions,removed,QUERY_008
+ENTITY_0104,intentions,without asking,QUERY_008
+ENTITY_0105,intentions,without permission,QUERY_008
+ENTITY_0106,intentions,dishonestly,QUERY_008
+ENTITY_0107,intentions,without consent,QUERY_008
+ENTITY_0108,persons,accused,QUERY_008
+ENTITY_0109,persons,victim,QUERY_008
+ENTITY_0110,circumstances,from table,QUERY_008
+ENTITY_0111,circumstances,from bag,QUERY_008
+ENTITY_0112,circumstances,while away,QUERY_008
+ENTITY_0113,objects,jewelry,QUERY_009
+ENTITY_0114,locations,office,QUERY_009
+ENTITY_0115,actions,took,QUERY_009
+ENTITY_0116,actions,stolen,QUERY_009
+ENTITY_0117,actions,removed,QUERY_009
+ENTITY_0118,intentions,without asking,QUERY_009
+ENTITY_0119,intentions,without permission,QUERY_009
+ENTITY_0120,intentions,dishonestly,QUERY_009
+ENTITY_0121,intentions,without consent,QUERY_009
+ENTITY_0122,persons,accused,QUERY_009
+ENTITY_0123,persons,victim,QUERY_009
+ENTITY_0124,circumstances,from table,QUERY_009
+ENTITY_0125,circumstances,from bag,QUERY_009
+ENTITY_0126,circumstances,while away,QUERY_009
+ENTITY_0127,objects,wallet,QUERY_010
+ENTITY_0128,locations,park,QUERY_010
+ENTITY_0129,actions,took,QUERY_010
+ENTITY_0130,actions,stolen,QUERY_010
+ENTITY_0131,actions,removed,QUERY_010
+ENTITY_0132,intentions,without asking,QUERY_010
+ENTITY_0133,intentions,without permission,QUERY_010
+ENTITY_0134,intentions,dishonestly,QUERY_010
+ENTITY_0135,intentions,without consent,QUERY_010
+ENTITY_0136,persons,accused,QUERY_010
+ENTITY_0137,persons,victim,QUERY_010
+ENTITY_0138,circumstances,from table,QUERY_010
+ENTITY_0139,circumstances,from bag,QUERY_010
+ENTITY_0140,circumstances,while away,QUERY_010
+ENTITY_0141,objects,money,QUERY_011
+ENTITY_0142,locations,bus,QUERY_011
+ENTITY_0143,actions,took,QUERY_011
+ENTITY_0144,actions,stolen,QUERY_011
+ENTITY_0145,actions,removed,QUERY_011
+ENTITY_0146,intentions,without asking,QUERY_011
+ENTITY_0147,intentions,without permission,QUERY_011
+ENTITY_0148,intentions,dishonestly,QUERY_011
+ENTITY_0149,intentions,without consent,QUERY_011
+ENTITY_0150,persons,accused,QUERY_011
+ENTITY_0151,persons,victim,QUERY_011
+ENTITY_0152,circumstances,from table,QUERY_011
+ENTITY_0153,circumstances,from bag,QUERY_011
+ENTITY_0154,circumstances,while away,QUERY_011
+ENTITY_0155,objects,watch,QUERY_012
+ENTITY_0156,locations,restaurant,QUERY_012
+ENTITY_0157,actions,took,QUERY_012
+ENTITY_0158,actions,stolen,QUERY_012
+ENTITY_0159,actions,removed,QUERY_012
+ENTITY_0160,intentions,without asking,QUERY_012
+ENTITY_0161,intentions,without permission,QUERY_012
+ENTITY_0162,intentions,dishonestly,QUERY_012
+ENTITY_0163,intentions,without consent,QUERY_012
+ENTITY_0164,persons,accused,QUERY_012
+ENTITY_0165,persons,victim,QUERY_012
+ENTITY_0166,circumstances,from table,QUERY_012
+ENTITY_0167,circumstances,from bag,QUERY_012
+ENTITY_0168,circumstances,while away,QUERY_012
+ENTITY_0169,objects,money,QUERY_013
+ENTITY_0170,locations,market,QUERY_013
+ENTITY_0171,actions,took,QUERY_013
+ENTITY_0172,actions,stolen,QUERY_013
+ENTITY_0173,actions,removed,QUERY_013
+ENTITY_0174,intentions,without asking,QUERY_013
+ENTITY_0175,intentions,without permission,QUERY_013
+ENTITY_0176,intentions,dishonestly,QUERY_013
+ENTITY_0177,intentions,without consent,QUERY_013
+ENTITY_0178,persons,accused,QUERY_013
+ENTITY_0179,persons,victim,QUERY_013
+ENTITY_0180,circumstances,from table,QUERY_013
+ENTITY_0181,circumstances,from bag,QUERY_013
+ENTITY_0182,circumstances,while away,QUERY_013
+ENTITY_0183,objects,bag,QUERY_014
+ENTITY_0184,locations,office,QUERY_014
+ENTITY_0185,actions,took,QUERY_014
+ENTITY_0186,actions,stolen,QUERY_014
+ENTITY_0187,actions,removed,QUERY_014
+ENTITY_0188,intentions,without asking,QUERY_014
+ENTITY_0189,intentions,without permission,QUERY_014
+ENTITY_0190,intentions,dishonestly,QUERY_014
+ENTITY_0191,intentions,without consent,QUERY_014
+ENTITY_0192,persons,accused,QUERY_014
+ENTITY_0193,persons,victim,QUERY_014
+ENTITY_0194,circumstances,from table,QUERY_014
+ENTITY_0195,circumstances,from bag,QUERY_014
+ENTITY_0196,circumstances,while away,QUERY_014
+ENTITY_0197,objects,jewelry,QUERY_015
+ENTITY_0198,locations,restaurant,QUERY_015
+ENTITY_0199,actions,took,QUERY_015
+ENTITY_0200,actions,stolen,QUERY_015
+ENTITY_0201,actions,removed,QUERY_015
+ENTITY_0202,intentions,without asking,QUERY_015
+ENTITY_0203,intentions,without permission,QUERY_015
+ENTITY_0204,intentions,dishonestly,QUERY_015
+ENTITY_0205,intentions,without consent,QUERY_015
+ENTITY_0206,persons,accused,QUERY_015
+ENTITY_0207,persons,victim,QUERY_015
+ENTITY_0208,circumstances,from table,QUERY_015
+ENTITY_0209,circumstances,from bag,QUERY_015
+ENTITY_0210,circumstances,while away,QUERY_015
+ENTITY_0211,objects,wallet,QUERY_016
+ENTITY_0212,locations,park,QUERY_016
+ENTITY_0213,actions,took,QUERY_016
+ENTITY_0214,actions,stolen,QUERY_016
+ENTITY_0215,actions,removed,QUERY_016
+ENTITY_0216,intentions,without asking,QUERY_016
+ENTITY_0217,intentions,without permission,QUERY_016
+ENTITY_0218,intentions,dishonestly,QUERY_016
+ENTITY_0219,intentions,without consent,QUERY_016
+ENTITY_0220,persons,accused,QUERY_016
+ENTITY_0221,persons,victim,QUERY_016
+ENTITY_0222,circumstances,from table,QUERY_016
+ENTITY_0223,circumstances,from bag,QUERY_016
+ENTITY_0224,circumstances,while away,QUERY_016
+ENTITY_0225,objects,mobile phone,QUERY_017
+ENTITY_0226,locations,restaurant,QUERY_017
+ENTITY_0227,actions,took,QUERY_017
+ENTITY_0228,actions,stolen,QUERY_017
+ENTITY_0229,actions,removed,QUERY_017
+ENTITY_0230,intentions,without asking,QUERY_017
+ENTITY_0231,intentions,without permission,QUERY_017
+ENTITY_0232,intentions,dishonestly,QUERY_017
+ENTITY_0233,intentions,without consent,QUERY_017
+ENTITY_0234,persons,accused,QUERY_017
+ENTITY_0235,persons,victim,QUERY_017
+ENTITY_0236,circumstances,from table,QUERY_017
+ENTITY_0237,circumstances,from bag,QUERY_017
+ENTITY_0238,circumstances,while away,QUERY_017
+ENTITY_0239,objects,mobile phone,QUERY_018
+ENTITY_0240,locations,bus,QUERY_018
+ENTITY_0241,actions,took,QUERY_018
+ENTITY_0242,actions,stolen,QUERY_018
+ENTITY_0243,actions,removed,QUERY_018
+ENTITY_0244,intentions,without asking,QUERY_018
+ENTITY_0245,intentions,without permission,QUERY_018
+ENTITY_0246,intentions,dishonestly,QUERY_018
+ENTITY_0247,intentions,without consent,QUERY_018
+ENTITY_0248,persons,accused,QUERY_018
+ENTITY_0249,persons,victim,QUERY_018
+ENTITY_0250,circumstances,from table,QUERY_018
+ENTITY_0251,circumstances,from bag,QUERY_018
+ENTITY_0252,circumstances,while away,QUERY_018
+ENTITY_0253,objects,laptop,QUERY_019
+ENTITY_0254,locations,home,QUERY_019
+ENTITY_0255,actions,took,QUERY_019
+ENTITY_0256,actions,stolen,QUERY_019
+ENTITY_0257,actions,removed,QUERY_019
+ENTITY_0258,intentions,without asking,QUERY_019
+ENTITY_0259,intentions,without permission,QUERY_019
+ENTITY_0260,intentions,dishonestly,QUERY_019
+ENTITY_0261,intentions,without consent,QUERY_019
+ENTITY_0262,persons,accused,QUERY_019
+ENTITY_0263,persons,victim,QUERY_019
+ENTITY_0264,circumstances,from table,QUERY_019
+ENTITY_0265,circumstances,from bag,QUERY_019
+ENTITY_0266,circumstances,while away,QUERY_019
+ENTITY_0267,objects,watch,QUERY_020
+ENTITY_0268,locations,bus,QUERY_020
+ENTITY_0269,actions,took,QUERY_020
+ENTITY_0270,actions,stolen,QUERY_020
+ENTITY_0271,actions,removed,QUERY_020
+ENTITY_0272,intentions,without asking,QUERY_020
+ENTITY_0273,intentions,without permission,QUERY_020
+ENTITY_0274,intentions,dishonestly,QUERY_020
+ENTITY_0275,intentions,without consent,QUERY_020
+ENTITY_0276,persons,accused,QUERY_020
+ENTITY_0277,persons,victim,QUERY_020
+ENTITY_0278,circumstances,from table,QUERY_020
+ENTITY_0279,circumstances,from bag,QUERY_020
+ENTITY_0280,circumstances,while away,QUERY_020
+ENTITY_0281,objects,jewelry,QUERY_021
+ENTITY_0282,locations,bus,QUERY_021
+ENTITY_0283,actions,took,QUERY_021
+ENTITY_0284,actions,stolen,QUERY_021
+ENTITY_0285,actions,removed,QUERY_021
+ENTITY_0286,intentions,without asking,QUERY_021
+ENTITY_0287,intentions,without permission,QUERY_021
+ENTITY_0288,intentions,dishonestly,QUERY_021
+ENTITY_0289,intentions,without consent,QUERY_021
+ENTITY_0290,persons,accused,QUERY_021
+ENTITY_0291,persons,victim,QUERY_021
+ENTITY_0292,circumstances,from table,QUERY_021
+ENTITY_0293,circumstances,from bag,QUERY_021
+ENTITY_0294,circumstances,while away,QUERY_021
+ENTITY_0295,objects,laptop,QUERY_022
+ENTITY_0296,locations,market,QUERY_022
+ENTITY_0297,actions,took,QUERY_022
+ENTITY_0298,actions,stolen,QUERY_022
+ENTITY_0299,actions,removed,QUERY_022
+ENTITY_0300,intentions,without asking,QUERY_022
+ENTITY_0301,intentions,without permission,QUERY_022
+ENTITY_0302,intentions,dishonestly,QUERY_022
+ENTITY_0303,intentions,without consent,QUERY_022
+ENTITY_0304,persons,accused,QUERY_022
+ENTITY_0305,persons,victim,QUERY_022
+ENTITY_0306,circumstances,from table,QUERY_022
+ENTITY_0307,circumstances,from bag,QUERY_022
+ENTITY_0308,circumstances,while away,QUERY_022
+ENTITY_0309,objects,laptop,QUERY_023
+ENTITY_0310,locations,bus,QUERY_023
+ENTITY_0311,actions,took,QUERY_023
+ENTITY_0312,actions,stolen,QUERY_023
+ENTITY_0313,actions,removed,QUERY_023
+ENTITY_0314,intentions,without asking,QUERY_023
+ENTITY_0315,intentions,without permission,QUERY_023
+ENTITY_0316,intentions,dishonestly,QUERY_023
+ENTITY_0317,intentions,without consent,QUERY_023
+ENTITY_0318,persons,accused,QUERY_023
+ENTITY_0319,persons,victim,QUERY_023
+ENTITY_0320,circumstances,from table,QUERY_023
+ENTITY_0321,circumstances,from bag,QUERY_023
+ENTITY_0322,circumstances,while away,QUERY_023
+ENTITY_0323,objects,jewelry,QUERY_024
+ENTITY_0324,locations,office,QUERY_024
+ENTITY_0325,actions,took,QUERY_024
+ENTITY_0326,actions,stolen,QUERY_024
+ENTITY_0327,actions,removed,QUERY_024
+ENTITY_0328,intentions,without asking,QUERY_024
+ENTITY_0329,intentions,without permission,QUERY_024
+ENTITY_0330,intentions,dishonestly,QUERY_024
+ENTITY_0331,intentions,without consent,QUERY_024
+ENTITY_0332,persons,accused,QUERY_024
+ENTITY_0333,persons,victim,QUERY_024
+ENTITY_0334,circumstances,from table,QUERY_024
+ENTITY_0335,circumstances,from bag,QUERY_024
+ENTITY_0336,circumstances,while away,QUERY_024
+ENTITY_0337,objects,bag,QUERY_025
+ENTITY_0338,locations,bus,QUERY_025
+ENTITY_0339,actions,took,QUERY_025
+ENTITY_0340,actions,stolen,QUERY_025
+ENTITY_0341,actions,removed,QUERY_025
+ENTITY_0342,intentions,without asking,QUERY_025
+ENTITY_0343,intentions,without permission,QUERY_025
+ENTITY_0344,intentions,dishonestly,QUERY_025
+ENTITY_0345,intentions,without consent,QUERY_025
+ENTITY_0346,persons,accused,QUERY_025
+ENTITY_0347,persons,victim,QUERY_025
+ENTITY_0348,circumstances,from table,QUERY_025
+ENTITY_0349,circumstances,from bag,QUERY_025
+ENTITY_0350,circumstances,while away,QUERY_025
+ENTITY_0351,objects,laptop,QUERY_026
+ENTITY_0352,locations,home,QUERY_026
+ENTITY_0353,actions,took,QUERY_026
+ENTITY_0354,actions,stolen,QUERY_026
+ENTITY_0355,actions,removed,QUERY_026
+ENTITY_0356,intentions,without asking,QUERY_026
+ENTITY_0357,intentions,without permission,QUERY_026
+ENTITY_0358,intentions,dishonestly,QUERY_026
+ENTITY_0359,intentions,without consent,QUERY_026
+ENTITY_0360,persons,accused,QUERY_026
+ENTITY_0361,persons,victim,QUERY_026
+ENTITY_0362,circumstances,from table,QUERY_026
+ENTITY_0363,circumstances,from bag,QUERY_026
+ENTITY_0364,circumstances,while away,QUERY_026
+ENTITY_0365,objects,bag,QUERY_027
+ENTITY_0366,locations,restaurant,QUERY_027
+ENTITY_0367,actions,took,QUERY_027
+ENTITY_0368,actions,stolen,QUERY_027
+ENTITY_0369,actions,removed,QUERY_027
+ENTITY_0370,intentions,without asking,QUERY_027
+ENTITY_0371,intentions,without permission,QUERY_027
+ENTITY_0372,intentions,dishonestly,QUERY_027
+ENTITY_0373,intentions,without consent,QUERY_027
+ENTITY_0374,persons,accused,QUERY_027
+ENTITY_0375,persons,victim,QUERY_027
+ENTITY_0376,circumstances,from table,QUERY_027
+ENTITY_0377,circumstances,from bag,QUERY_027
+ENTITY_0378,circumstances,while away,QUERY_027
+ENTITY_0379,objects,mobile phone,QUERY_028
+ENTITY_0380,locations,park,QUERY_028
+ENTITY_0381,actions,took,QUERY_028
+ENTITY_0382,actions,stolen,QUERY_028
+ENTITY_0383,actions,removed,QUERY_028
+ENTITY_0384,intentions,without asking,QUERY_028
+ENTITY_0385,intentions,without permission,QUERY_028
+ENTITY_0386,intentions,dishonestly,QUERY_028
+ENTITY_0387,intentions,without consent,QUERY_028
+ENTITY_0388,persons,accused,QUERY_028
+ENTITY_0389,persons,victim,QUERY_028
+ENTITY_0390,circumstances,from table,QUERY_028
+ENTITY_0391,circumstances,from bag,QUERY_028
+ENTITY_0392,circumstances,while away,QUERY_028
+ENTITY_0393,objects,bag,QUERY_029
+ENTITY_0394,locations,market,QUERY_029
+ENTITY_0395,actions,took,QUERY_029
+ENTITY_0396,actions,stolen,QUERY_029
+ENTITY_0397,actions,removed,QUERY_029
+ENTITY_0398,intentions,without asking,QUERY_029
+ENTITY_0399,intentions,without permission,QUERY_029
+ENTITY_0400,intentions,dishonestly,QUERY_029
+ENTITY_0401,intentions,without consent,QUERY_029
+ENTITY_0402,persons,accused,QUERY_029
+ENTITY_0403,persons,victim,QUERY_029
+ENTITY_0404,circumstances,from table,QUERY_029
+ENTITY_0405,circumstances,from bag,QUERY_029
+ENTITY_0406,circumstances,while away,QUERY_029
+ENTITY_0407,objects,mobile phone,QUERY_030
+ENTITY_0408,locations,bus,QUERY_030
+ENTITY_0409,actions,took,QUERY_030
+ENTITY_0410,actions,stolen,QUERY_030
+ENTITY_0411,actions,removed,QUERY_030
+ENTITY_0412,intentions,without asking,QUERY_030
+ENTITY_0413,intentions,without permission,QUERY_030
+ENTITY_0414,intentions,dishonestly,QUERY_030
+ENTITY_0415,intentions,without consent,QUERY_030
+ENTITY_0416,persons,accused,QUERY_030
+ENTITY_0417,persons,victim,QUERY_030
+ENTITY_0418,circumstances,from table,QUERY_030
+ENTITY_0419,circumstances,from bag,QUERY_030
+ENTITY_0420,circumstances,while away,QUERY_030
+ENTITY_0421,objects,jewelry,QUERY_031
+ENTITY_0422,locations,market,QUERY_031
+ENTITY_0423,actions,took,QUERY_031
+ENTITY_0424,actions,stolen,QUERY_031
+ENTITY_0425,actions,removed,QUERY_031
+ENTITY_0426,intentions,without asking,QUERY_031
+ENTITY_0427,intentions,without permission,QUERY_031
+ENTITY_0428,intentions,dishonestly,QUERY_031
+ENTITY_0429,intentions,without consent,QUERY_031
+ENTITY_0430,persons,accused,QUERY_031
+ENTITY_0431,persons,victim,QUERY_031
+ENTITY_0432,circumstances,from table,QUERY_031
+ENTITY_0433,circumstances,from bag,QUERY_031
+ENTITY_0434,circumstances,while away,QUERY_031
+ENTITY_0435,objects,bag,QUERY_032
+ENTITY_0436,locations,park,QUERY_032
+ENTITY_0437,actions,took,QUERY_032
+ENTITY_0438,actions,stolen,QUERY_032
+ENTITY_0439,actions,removed,QUERY_032
+ENTITY_0440,intentions,without asking,QUERY_032
+ENTITY_0441,intentions,without permission,QUERY_032
+ENTITY_0442,intentions,dishonestly,QUERY_032
+ENTITY_0443,intentions,without consent,QUERY_032
+ENTITY_0444,persons,accused,QUERY_032
+ENTITY_0445,persons,victim,QUERY_032
+ENTITY_0446,circumstances,from table,QUERY_032
+ENTITY_0447,circumstances,from bag,QUERY_032
+ENTITY_0448,circumstances,while away,QUERY_032
+ENTITY_0449,objects,wallet,QUERY_033
+ENTITY_0450,locations,restaurant,QUERY_033
+ENTITY_0451,actions,took,QUERY_033
+ENTITY_0452,actions,stolen,QUERY_033
+ENTITY_0453,actions,removed,QUERY_033
+ENTITY_0454,intentions,without asking,QUERY_033
+ENTITY_0455,intentions,without permission,QUERY_033
+ENTITY_0456,intentions,dishonestly,QUERY_033
+ENTITY_0457,intentions,without consent,QUERY_033
+ENTITY_0458,persons,accused,QUERY_033
+ENTITY_0459,persons,victim,QUERY_033
+ENTITY_0460,circumstances,from table,QUERY_033
+ENTITY_0461,circumstances,from bag,QUERY_033
+ENTITY_0462,circumstances,while away,QUERY_033
+ENTITY_0463,objects,purse,QUERY_034
+ENTITY_0464,locations,bus stop,QUERY_034
+ENTITY_0465,actions,grabbed,QUERY_034
+ENTITY_0466,actions,snatched,QUERY_034
+ENTITY_0467,actions,seized,QUERY_034
+ENTITY_0468,actions,forcibly taken,QUERY_034
+ENTITY_0469,circumstances,suddenly,QUERY_034
+ENTITY_0470,circumstances,quickly,QUERY_034
+ENTITY_0471,circumstances,ran away,QUERY_034
+ENTITY_0472,persons,accused,QUERY_034
+ENTITY_0473,persons,victim,QUERY_034
+ENTITY_0474,objects,purse,QUERY_035
+ENTITY_0475,locations,bus stop,QUERY_035
+ENTITY_0476,actions,grabbed,QUERY_035
+ENTITY_0477,actions,snatched,QUERY_035
+ENTITY_0478,actions,seized,QUERY_035
+ENTITY_0479,actions,forcibly taken,QUERY_035
+ENTITY_0480,circumstances,suddenly,QUERY_035
+ENTITY_0481,circumstances,quickly,QUERY_035
+ENTITY_0482,circumstances,ran away,QUERY_035
+ENTITY_0483,persons,accused,QUERY_035
+ENTITY_0484,persons,victim,QUERY_035
+ENTITY_0485,objects,purse,QUERY_036
+ENTITY_0486,locations,bus stop,QUERY_036
+ENTITY_0487,actions,grabbed,QUERY_036
+ENTITY_0488,actions,snatched,QUERY_036
+ENTITY_0489,actions,seized,QUERY_036
+ENTITY_0490,actions,forcibly taken,QUERY_036
+ENTITY_0491,circumstances,suddenly,QUERY_036
+ENTITY_0492,circumstances,quickly,QUERY_036
+ENTITY_0493,circumstances,ran away,QUERY_036
+ENTITY_0494,persons,accused,QUERY_036
+ENTITY_0495,persons,victim,QUERY_036
+ENTITY_0496,objects,bag,QUERY_037
+ENTITY_0497,locations,market,QUERY_037
+ENTITY_0498,actions,grabbed,QUERY_037
+ENTITY_0499,actions,snatched,QUERY_037
+ENTITY_0500,actions,seized,QUERY_037
+ENTITY_0501,actions,forcibly taken,QUERY_037
+ENTITY_0502,circumstances,suddenly,QUERY_037
+ENTITY_0503,circumstances,quickly,QUERY_037
+ENTITY_0504,circumstances,ran away,QUERY_037
+ENTITY_0505,persons,accused,QUERY_037
+ENTITY_0506,persons,victim,QUERY_037
+ENTITY_0507,objects,phone,QUERY_038
+ENTITY_0508,locations,market,QUERY_038
+ENTITY_0509,actions,grabbed,QUERY_038
+ENTITY_0510,actions,snatched,QUERY_038
+ENTITY_0511,actions,seized,QUERY_038
+ENTITY_0512,actions,forcibly taken,QUERY_038
+ENTITY_0513,circumstances,suddenly,QUERY_038
+ENTITY_0514,circumstances,quickly,QUERY_038
+ENTITY_0515,circumstances,ran away,QUERY_038
+ENTITY_0516,persons,accused,QUERY_038
+ENTITY_0517,persons,victim,QUERY_038
+ENTITY_0518,objects,phone,QUERY_039
+ENTITY_0519,locations,bus stop,QUERY_039
+ENTITY_0520,actions,grabbed,QUERY_039
+ENTITY_0521,actions,snatched,QUERY_039
+ENTITY_0522,actions,seized,QUERY_039
+ENTITY_0523,actions,forcibly taken,QUERY_039
+ENTITY_0524,circumstances,suddenly,QUERY_039
+ENTITY_0525,circumstances,quickly,QUERY_039
+ENTITY_0526,circumstances,ran away,QUERY_039
+ENTITY_0527,persons,accused,QUERY_039
+ENTITY_0528,persons,victim,QUERY_039
+ENTITY_0529,objects,phone,QUERY_040
+ENTITY_0530,locations,bus stop,QUERY_040
+ENTITY_0531,actions,grabbed,QUERY_040
+ENTITY_0532,actions,snatched,QUERY_040
+ENTITY_0533,actions,seized,QUERY_040
+ENTITY_0534,actions,forcibly taken,QUERY_040
+ENTITY_0535,circumstances,suddenly,QUERY_040
+ENTITY_0536,circumstances,quickly,QUERY_040
+ENTITY_0537,circumstances,ran away,QUERY_040
+ENTITY_0538,persons,accused,QUERY_040
+ENTITY_0539,persons,victim,QUERY_040
+ENTITY_0540,objects,phone,QUERY_041
+ENTITY_0541,locations,bus stop,QUERY_041
+ENTITY_0542,actions,grabbed,QUERY_041
+ENTITY_0543,actions,snatched,QUERY_041
+ENTITY_0544,actions,seized,QUERY_041
+ENTITY_0545,actions,forcibly taken,QUERY_041
+ENTITY_0546,circumstances,suddenly,QUERY_041
+ENTITY_0547,circumstances,quickly,QUERY_041
+ENTITY_0548,circumstances,ran away,QUERY_041
+ENTITY_0549,persons,accused,QUERY_041
+ENTITY_0550,persons,victim,QUERY_041
+ENTITY_0551,objects,bag,QUERY_042
+ENTITY_0552,locations,bus stop,QUERY_042
+ENTITY_0553,actions,grabbed,QUERY_042
+ENTITY_0554,actions,snatched,QUERY_042
+ENTITY_0555,actions,seized,QUERY_042
+ENTITY_0556,actions,forcibly taken,QUERY_042
+ENTITY_0557,circumstances,suddenly,QUERY_042
+ENTITY_0558,circumstances,quickly,QUERY_042
+ENTITY_0559,circumstances,ran away,QUERY_042
+ENTITY_0560,persons,accused,QUERY_042
+ENTITY_0561,persons,victim,QUERY_042
+ENTITY_0562,objects,phone,QUERY_043
+ENTITY_0563,locations,street,QUERY_043
+ENTITY_0564,actions,grabbed,QUERY_043
+ENTITY_0565,actions,snatched,QUERY_043
+ENTITY_0566,actions,seized,QUERY_043
+ENTITY_0567,actions,forcibly taken,QUERY_043
+ENTITY_0568,circumstances,suddenly,QUERY_043
+ENTITY_0569,circumstances,quickly,QUERY_043
+ENTITY_0570,circumstances,ran away,QUERY_043
+ENTITY_0571,persons,accused,QUERY_043
+ENTITY_0572,persons,victim,QUERY_043
+ENTITY_0573,objects,chain,QUERY_044
+ENTITY_0574,locations,street,QUERY_044
+ENTITY_0575,actions,grabbed,QUERY_044
+ENTITY_0576,actions,snatched,QUERY_044
+ENTITY_0577,actions,seized,QUERY_044
+ENTITY_0578,actions,forcibly taken,QUERY_044
+ENTITY_0579,circumstances,suddenly,QUERY_044
+ENTITY_0580,circumstances,quickly,QUERY_044
+ENTITY_0581,circumstances,ran away,QUERY_044
+ENTITY_0582,persons,accused,QUERY_044
+ENTITY_0583,persons,victim,QUERY_044
+ENTITY_0584,objects,phone,QUERY_045
+ENTITY_0585,locations,street,QUERY_045
+ENTITY_0586,actions,grabbed,QUERY_045
+ENTITY_0587,actions,snatched,QUERY_045
+ENTITY_0588,actions,seized,QUERY_045
+ENTITY_0589,actions,forcibly taken,QUERY_045
+ENTITY_0590,circumstances,suddenly,QUERY_045
+ENTITY_0591,circumstances,quickly,QUERY_045
+ENTITY_0592,circumstances,ran away,QUERY_045
+ENTITY_0593,persons,accused,QUERY_045
+ENTITY_0594,persons,victim,QUERY_045
+ENTITY_0595,objects,chain,QUERY_046
+ENTITY_0596,locations,bus stop,QUERY_046
+ENTITY_0597,actions,grabbed,QUERY_046
+ENTITY_0598,actions,snatched,QUERY_046
+ENTITY_0599,actions,seized,QUERY_046
+ENTITY_0600,actions,forcibly taken,QUERY_046
+ENTITY_0601,circumstances,suddenly,QUERY_046
+ENTITY_0602,circumstances,quickly,QUERY_046
+ENTITY_0603,circumstances,ran away,QUERY_046
+ENTITY_0604,persons,accused,QUERY_046
+ENTITY_0605,persons,victim,QUERY_046
+ENTITY_0606,objects,phone,QUERY_047
+ENTITY_0607,locations,street,QUERY_047
+ENTITY_0608,actions,grabbed,QUERY_047
+ENTITY_0609,actions,snatched,QUERY_047
+ENTITY_0610,actions,seized,QUERY_047
+ENTITY_0611,actions,forcibly taken,QUERY_047
+ENTITY_0612,circumstances,suddenly,QUERY_047
+ENTITY_0613,circumstances,quickly,QUERY_047
+ENTITY_0614,circumstances,ran away,QUERY_047
+ENTITY_0615,persons,accused,QUERY_047
+ENTITY_0616,persons,victim,QUERY_047
+ENTITY_0617,objects,chain,QUERY_048
+ENTITY_0618,locations,street,QUERY_048
+ENTITY_0619,actions,grabbed,QUERY_048
+ENTITY_0620,actions,snatched,QUERY_048
+ENTITY_0621,actions,seized,QUERY_048
+ENTITY_0622,actions,forcibly taken,QUERY_048
+ENTITY_0623,circumstances,suddenly,QUERY_048
+ENTITY_0624,circumstances,quickly,QUERY_048
+ENTITY_0625,circumstances,ran away,QUERY_048
+ENTITY_0626,persons,accused,QUERY_048
+ENTITY_0627,persons,victim,QUERY_048
+ENTITY_0628,objects,bag,QUERY_049
+ENTITY_0629,locations,street,QUERY_049
+ENTITY_0630,actions,grabbed,QUERY_049
+ENTITY_0631,actions,snatched,QUERY_049
+ENTITY_0632,actions,seized,QUERY_049
+ENTITY_0633,actions,forcibly taken,QUERY_049
+ENTITY_0634,circumstances,suddenly,QUERY_049
+ENTITY_0635,circumstances,quickly,QUERY_049
+ENTITY_0636,circumstances,ran away,QUERY_049
+ENTITY_0637,persons,accused,QUERY_049
+ENTITY_0638,persons,victim,QUERY_049
+ENTITY_0639,objects,bag,QUERY_050
+ENTITY_0640,locations,bus stop,QUERY_050
+ENTITY_0641,actions,grabbed,QUERY_050
+ENTITY_0642,actions,snatched,QUERY_050
+ENTITY_0643,actions,seized,QUERY_050
+ENTITY_0644,actions,forcibly taken,QUERY_050
+ENTITY_0645,circumstances,suddenly,QUERY_050
+ENTITY_0646,circumstances,quickly,QUERY_050
+ENTITY_0647,circumstances,ran away,QUERY_050
+ENTITY_0648,persons,accused,QUERY_050
+ENTITY_0649,persons,victim,QUERY_050
+ENTITY_0650,objects,bag,QUERY_051
+ENTITY_0651,locations,bus stop,QUERY_051
+ENTITY_0652,actions,grabbed,QUERY_051
+ENTITY_0653,actions,snatched,QUERY_051
+ENTITY_0654,actions,seized,QUERY_051
+ENTITY_0655,actions,forcibly taken,QUERY_051
+ENTITY_0656,circumstances,suddenly,QUERY_051
+ENTITY_0657,circumstances,quickly,QUERY_051
+ENTITY_0658,circumstances,ran away,QUERY_051
+ENTITY_0659,persons,accused,QUERY_051
+ENTITY_0660,persons,victim,QUERY_051
+ENTITY_0661,objects,bag,QUERY_052
+ENTITY_0662,locations,bus stop,QUERY_052
+ENTITY_0663,actions,grabbed,QUERY_052
+ENTITY_0664,actions,snatched,QUERY_052
+ENTITY_0665,actions,seized,QUERY_052
+ENTITY_0666,actions,forcibly taken,QUERY_052
+ENTITY_0667,circumstances,suddenly,QUERY_052
+ENTITY_0668,circumstances,quickly,QUERY_052
+ENTITY_0669,circumstances,ran away,QUERY_052
+ENTITY_0670,persons,accused,QUERY_052
+ENTITY_0671,persons,victim,QUERY_052
+ENTITY_0672,objects,phone,QUERY_053
+ENTITY_0673,locations,street,QUERY_053
+ENTITY_0674,actions,grabbed,QUERY_053
+ENTITY_0675,actions,snatched,QUERY_053
+ENTITY_0676,actions,seized,QUERY_053
+ENTITY_0677,actions,forcibly taken,QUERY_053
+ENTITY_0678,circumstances,suddenly,QUERY_053
+ENTITY_0679,circumstances,quickly,QUERY_053
+ENTITY_0680,circumstances,ran away,QUERY_053
+ENTITY_0681,persons,accused,QUERY_053
+ENTITY_0682,persons,victim,QUERY_053
+ENTITY_0683,objects,bag,QUERY_054
+ENTITY_0684,locations,bus stop,QUERY_054
+ENTITY_0685,actions,grabbed,QUERY_054
+ENTITY_0686,actions,snatched,QUERY_054
+ENTITY_0687,actions,seized,QUERY_054
+ENTITY_0688,actions,forcibly taken,QUERY_054
+ENTITY_0689,circumstances,suddenly,QUERY_054
+ENTITY_0690,circumstances,quickly,QUERY_054
+ENTITY_0691,circumstances,ran away,QUERY_054
+ENTITY_0692,persons,accused,QUERY_054
+ENTITY_0693,persons,victim,QUERY_054
+ENTITY_0694,objects,purse,QUERY_055
+ENTITY_0695,locations,market,QUERY_055
+ENTITY_0696,actions,grabbed,QUERY_055
+ENTITY_0697,actions,snatched,QUERY_055
+ENTITY_0698,actions,seized,QUERY_055
+ENTITY_0699,actions,forcibly taken,QUERY_055
+ENTITY_0700,circumstances,suddenly,QUERY_055
+ENTITY_0701,circumstances,quickly,QUERY_055
+ENTITY_0702,circumstances,ran away,QUERY_055
+ENTITY_0703,persons,accused,QUERY_055
+ENTITY_0704,persons,victim,QUERY_055
+ENTITY_0705,objects,purse,QUERY_056
+ENTITY_0706,locations,street,QUERY_056
+ENTITY_0707,actions,grabbed,QUERY_056
+ENTITY_0708,actions,snatched,QUERY_056
+ENTITY_0709,actions,seized,QUERY_056
+ENTITY_0710,actions,forcibly taken,QUERY_056
+ENTITY_0711,circumstances,suddenly,QUERY_056
+ENTITY_0712,circumstances,quickly,QUERY_056
+ENTITY_0713,circumstances,ran away,QUERY_056
+ENTITY_0714,persons,accused,QUERY_056
+ENTITY_0715,persons,victim,QUERY_056
+ENTITY_0716,objects,phone,QUERY_057
+ENTITY_0717,locations,bus stop,QUERY_057
+ENTITY_0718,actions,grabbed,QUERY_057
+ENTITY_0719,actions,snatched,QUERY_057
+ENTITY_0720,actions,seized,QUERY_057
+ENTITY_0721,actions,forcibly taken,QUERY_057
+ENTITY_0722,circumstances,suddenly,QUERY_057
+ENTITY_0723,circumstances,quickly,QUERY_057
+ENTITY_0724,circumstances,ran away,QUERY_057
+ENTITY_0725,persons,accused,QUERY_057
+ENTITY_0726,persons,victim,QUERY_057
+ENTITY_0727,objects,purse,QUERY_058
+ENTITY_0728,locations,bus stop,QUERY_058
+ENTITY_0729,actions,grabbed,QUERY_058
+ENTITY_0730,actions,snatched,QUERY_058
+ENTITY_0731,actions,seized,QUERY_058
+ENTITY_0732,actions,forcibly taken,QUERY_058
+ENTITY_0733,circumstances,suddenly,QUERY_058
+ENTITY_0734,circumstances,quickly,QUERY_058
+ENTITY_0735,circumstances,ran away,QUERY_058
+ENTITY_0736,persons,accused,QUERY_058
+ENTITY_0737,persons,victim,QUERY_058
+ENTITY_0738,objects,bag,QUERY_059
+ENTITY_0739,locations,bus stop,QUERY_059
+ENTITY_0740,actions,grabbed,QUERY_059
+ENTITY_0741,actions,snatched,QUERY_059
+ENTITY_0742,actions,seized,QUERY_059
+ENTITY_0743,actions,forcibly taken,QUERY_059
+ENTITY_0744,circumstances,suddenly,QUERY_059
+ENTITY_0745,circumstances,quickly,QUERY_059
+ENTITY_0746,circumstances,ran away,QUERY_059
+ENTITY_0747,persons,accused,QUERY_059
+ENTITY_0748,persons,victim,QUERY_059
+ENTITY_0749,objects,chain,QUERY_060
+ENTITY_0750,locations,street,QUERY_060
+ENTITY_0751,actions,grabbed,QUERY_060
+ENTITY_0752,actions,snatched,QUERY_060
+ENTITY_0753,actions,seized,QUERY_060
+ENTITY_0754,actions,forcibly taken,QUERY_060
+ENTITY_0755,circumstances,suddenly,QUERY_060
+ENTITY_0756,circumstances,quickly,QUERY_060
+ENTITY_0757,circumstances,ran away,QUERY_060
+ENTITY_0758,persons,accused,QUERY_060
+ENTITY_0759,persons,victim,QUERY_060
+ENTITY_0760,objects,purse,QUERY_061
+ENTITY_0761,locations,bus stop,QUERY_061
+ENTITY_0762,actions,grabbed,QUERY_061
+ENTITY_0763,actions,snatched,QUERY_061
+ENTITY_0764,actions,seized,QUERY_061
+ENTITY_0765,actions,forcibly taken,QUERY_061
+ENTITY_0766,circumstances,suddenly,QUERY_061
+ENTITY_0767,circumstances,quickly,QUERY_061
+ENTITY_0768,circumstances,ran away,QUERY_061
+ENTITY_0769,persons,accused,QUERY_061
+ENTITY_0770,persons,victim,QUERY_061
+ENTITY_0771,objects,phone,QUERY_062
+ENTITY_0772,locations,bus stop,QUERY_062
+ENTITY_0773,actions,grabbed,QUERY_062
+ENTITY_0774,actions,snatched,QUERY_062
+ENTITY_0775,actions,seized,QUERY_062
+ENTITY_0776,actions,forcibly taken,QUERY_062
+ENTITY_0777,circumstances,suddenly,QUERY_062
+ENTITY_0778,circumstances,quickly,QUERY_062
+ENTITY_0779,circumstances,ran away,QUERY_062
+ENTITY_0780,persons,accused,QUERY_062
+ENTITY_0781,persons,victim,QUERY_062
+ENTITY_0782,objects,chain,QUERY_063
+ENTITY_0783,locations,market,QUERY_063
+ENTITY_0784,actions,grabbed,QUERY_063
+ENTITY_0785,actions,snatched,QUERY_063
+ENTITY_0786,actions,seized,QUERY_063
+ENTITY_0787,actions,forcibly taken,QUERY_063
+ENTITY_0788,circumstances,suddenly,QUERY_063
+ENTITY_0789,circumstances,quickly,QUERY_063
+ENTITY_0790,circumstances,ran away,QUERY_063
+ENTITY_0791,persons,accused,QUERY_063
+ENTITY_0792,persons,victim,QUERY_063
+ENTITY_0793,objects,bag,QUERY_064
+ENTITY_0794,locations,street,QUERY_064
+ENTITY_0795,actions,grabbed,QUERY_064
+ENTITY_0796,actions,snatched,QUERY_064
+ENTITY_0797,actions,seized,QUERY_064
+ENTITY_0798,actions,forcibly taken,QUERY_064
+ENTITY_0799,circumstances,suddenly,QUERY_064
+ENTITY_0800,circumstances,quickly,QUERY_064
+ENTITY_0801,circumstances,ran away,QUERY_064
+ENTITY_0802,persons,accused,QUERY_064
+ENTITY_0803,persons,victim,QUERY_064
+ENTITY_0804,objects,phone,QUERY_065
+ENTITY_0805,locations,street,QUERY_065
+ENTITY_0806,actions,grabbed,QUERY_065
+ENTITY_0807,actions,snatched,QUERY_065
+ENTITY_0808,actions,seized,QUERY_065
+ENTITY_0809,actions,forcibly taken,QUERY_065
+ENTITY_0810,circumstances,suddenly,QUERY_065
+ENTITY_0811,circumstances,quickly,QUERY_065
+ENTITY_0812,circumstances,ran away,QUERY_065
+ENTITY_0813,persons,accused,QUERY_065
+ENTITY_0814,persons,victim,QUERY_065
+ENTITY_0815,objects,purse,QUERY_066
+ENTITY_0816,locations,street,QUERY_066
+ENTITY_0817,actions,grabbed,QUERY_066
+ENTITY_0818,actions,snatched,QUERY_066
+ENTITY_0819,actions,seized,QUERY_066
+ENTITY_0820,actions,forcibly taken,QUERY_066
+ENTITY_0821,circumstances,suddenly,QUERY_066
+ENTITY_0822,circumstances,quickly,QUERY_066
+ENTITY_0823,circumstances,ran away,QUERY_066
+ENTITY_0824,persons,accused,QUERY_066
+ENTITY_0825,persons,victim,QUERY_066
+ENTITY_0826,objects,valuables,QUERY_067
+ENTITY_0827,locations,home,QUERY_067
+ENTITY_0828,locations,dwelling house,QUERY_067
+ENTITY_0829,actions,entered,QUERY_067
+ENTITY_0830,actions,stole,QUERY_067
+ENTITY_0831,actions,taken,QUERY_067
+ENTITY_0832,actions,broke into,QUERY_067
+ENTITY_0833,actions,removed,QUERY_067
+ENTITY_0834,circumstances,not at home,QUERY_067
+ENTITY_0835,circumstances,without permission,QUERY_067
+ENTITY_0836,persons,accused,QUERY_067
+ENTITY_0837,persons,victim,QUERY_067
+ENTITY_0838,objects,valuables,QUERY_068
+ENTITY_0839,locations,home,QUERY_068
+ENTITY_0840,locations,dwelling house,QUERY_068
+ENTITY_0841,actions,entered,QUERY_068
+ENTITY_0842,actions,stole,QUERY_068
+ENTITY_0843,actions,taken,QUERY_068
+ENTITY_0844,actions,broke into,QUERY_068
+ENTITY_0845,actions,removed,QUERY_068
+ENTITY_0846,circumstances,not at home,QUERY_068
+ENTITY_0847,circumstances,without permission,QUERY_068
+ENTITY_0848,persons,accused,QUERY_068
+ENTITY_0849,persons,victim,QUERY_068
+ENTITY_0850,objects,jewelry,QUERY_069
+ENTITY_0851,locations,house,QUERY_069
+ENTITY_0852,locations,dwelling house,QUERY_069
+ENTITY_0853,actions,entered,QUERY_069
+ENTITY_0854,actions,stole,QUERY_069
+ENTITY_0855,actions,taken,QUERY_069
+ENTITY_0856,actions,broke into,QUERY_069
+ENTITY_0857,actions,removed,QUERY_069
+ENTITY_0858,circumstances,not at home,QUERY_069
+ENTITY_0859,circumstances,without permission,QUERY_069
+ENTITY_0860,persons,accused,QUERY_069
+ENTITY_0861,persons,victim,QUERY_069
+ENTITY_0862,objects,jewelry,QUERY_070
+ENTITY_0863,locations,room,QUERY_070
+ENTITY_0864,locations,dwelling house,QUERY_070
+ENTITY_0865,actions,entered,QUERY_070
+ENTITY_0866,actions,stole,QUERY_070
+ENTITY_0867,actions,taken,QUERY_070
+ENTITY_0868,actions,broke into,QUERY_070
+ENTITY_0869,actions,removed,QUERY_070
+ENTITY_0870,circumstances,not at home,QUERY_070
+ENTITY_0871,circumstances,without permission,QUERY_070
+ENTITY_0872,persons,accused,QUERY_070
+ENTITY_0873,persons,victim,QUERY_070
+ENTITY_0874,objects,electronics,QUERY_071
+ENTITY_0875,locations,apartment,QUERY_071
+ENTITY_0876,locations,dwelling house,QUERY_071
+ENTITY_0877,actions,entered,QUERY_071
+ENTITY_0878,actions,stole,QUERY_071
+ENTITY_0879,actions,taken,QUERY_071
+ENTITY_0880,actions,broke into,QUERY_071
+ENTITY_0881,actions,removed,QUERY_071
+ENTITY_0882,circumstances,not at home,QUERY_071
+ENTITY_0883,circumstances,without permission,QUERY_071
+ENTITY_0884,persons,accused,QUERY_071
+ENTITY_0885,persons,victim,QUERY_071
+ENTITY_0886,objects,jewelry,QUERY_072
+ENTITY_0887,locations,home,QUERY_072
+ENTITY_0888,locations,dwelling house,QUERY_072
+ENTITY_0889,actions,entered,QUERY_072
+ENTITY_0890,actions,stole,QUERY_072
+ENTITY_0891,actions,taken,QUERY_072
+ENTITY_0892,actions,broke into,QUERY_072
+ENTITY_0893,actions,removed,QUERY_072
+ENTITY_0894,circumstances,not at home,QUERY_072
+ENTITY_0895,circumstances,without permission,QUERY_072
+ENTITY_0896,persons,accused,QUERY_072
+ENTITY_0897,persons,victim,QUERY_072
+ENTITY_0898,objects,valuables,QUERY_073
+ENTITY_0899,locations,building,QUERY_073
+ENTITY_0900,locations,dwelling house,QUERY_073
+ENTITY_0901,actions,entered,QUERY_073
+ENTITY_0902,actions,stole,QUERY_073
+ENTITY_0903,actions,taken,QUERY_073
+ENTITY_0904,actions,broke into,QUERY_073
+ENTITY_0905,actions,removed,QUERY_073
+ENTITY_0906,circumstances,not at home,QUERY_073
+ENTITY_0907,circumstances,without permission,QUERY_073
+ENTITY_0908,persons,accused,QUERY_073
+ENTITY_0909,persons,victim,QUERY_073
+ENTITY_0910,objects,money,QUERY_074
+ENTITY_0911,locations,house,QUERY_074
+ENTITY_0912,locations,dwelling house,QUERY_074
+ENTITY_0913,actions,entered,QUERY_074
+ENTITY_0914,actions,stole,QUERY_074
+ENTITY_0915,actions,taken,QUERY_074
+ENTITY_0916,actions,broke into,QUERY_074
+ENTITY_0917,actions,removed,QUERY_074
+ENTITY_0918,circumstances,not at home,QUERY_074
+ENTITY_0919,circumstances,without permission,QUERY_074
+ENTITY_0920,persons,accused,QUERY_074
+ENTITY_0921,persons,victim,QUERY_074
+ENTITY_0922,objects,valuables,QUERY_075
+ENTITY_0923,locations,apartment,QUERY_075
+ENTITY_0924,locations,dwelling house,QUERY_075
+ENTITY_0925,actions,entered,QUERY_075
+ENTITY_0926,actions,stole,QUERY_075
+ENTITY_0927,actions,taken,QUERY_075
+ENTITY_0928,actions,broke into,QUERY_075
+ENTITY_0929,actions,removed,QUERY_075
+ENTITY_0930,circumstances,not at home,QUERY_075
+ENTITY_0931,circumstances,without permission,QUERY_075
+ENTITY_0932,persons,accused,QUERY_075
+ENTITY_0933,persons,victim,QUERY_075
+ENTITY_0934,objects,money,QUERY_076
+ENTITY_0935,locations,house,QUERY_076
+ENTITY_0936,locations,dwelling house,QUERY_076
+ENTITY_0937,actions,entered,QUERY_076
+ENTITY_0938,actions,stole,QUERY_076
+ENTITY_0939,actions,taken,QUERY_076
+ENTITY_0940,actions,broke into,QUERY_076
+ENTITY_0941,actions,removed,QUERY_076
+ENTITY_0942,circumstances,not at home,QUERY_076
+ENTITY_0943,circumstances,without permission,QUERY_076
+ENTITY_0944,persons,accused,QUERY_076
+ENTITY_0945,persons,victim,QUERY_076
+ENTITY_0946,objects,jewelry,QUERY_077
+ENTITY_0947,locations,apartment,QUERY_077
+ENTITY_0948,locations,dwelling house,QUERY_077
+ENTITY_0949,actions,entered,QUERY_077
+ENTITY_0950,actions,stole,QUERY_077
+ENTITY_0951,actions,taken,QUERY_077
+ENTITY_0952,actions,broke into,QUERY_077
+ENTITY_0953,actions,removed,QUERY_077
+ENTITY_0954,circumstances,not at home,QUERY_077
+ENTITY_0955,circumstances,without permission,QUERY_077
+ENTITY_0956,persons,accused,QUERY_077
+ENTITY_0957,persons,victim,QUERY_077
+ENTITY_0958,objects,jewelry,QUERY_078
+ENTITY_0959,locations,room,QUERY_078
+ENTITY_0960,locations,dwelling house,QUERY_078
+ENTITY_0961,actions,entered,QUERY_078
+ENTITY_0962,actions,stole,QUERY_078
+ENTITY_0963,actions,taken,QUERY_078
+ENTITY_0964,actions,broke into,QUERY_078
+ENTITY_0965,actions,removed,QUERY_078
+ENTITY_0966,circumstances,not at home,QUERY_078
+ENTITY_0967,circumstances,without permission,QUERY_078
+ENTITY_0968,persons,accused,QUERY_078
+ENTITY_0969,persons,victim,QUERY_078
+ENTITY_0970,objects,electronics,QUERY_079
+ENTITY_0971,locations,home,QUERY_079
+ENTITY_0972,locations,dwelling house,QUERY_079
+ENTITY_0973,actions,entered,QUERY_079
+ENTITY_0974,actions,stole,QUERY_079
+ENTITY_0975,actions,taken,QUERY_079
+ENTITY_0976,actions,broke into,QUERY_079
+ENTITY_0977,actions,removed,QUERY_079
+ENTITY_0978,circumstances,not at home,QUERY_079
+ENTITY_0979,circumstances,without permission,QUERY_079
+ENTITY_0980,persons,accused,QUERY_079
+ENTITY_0981,persons,victim,QUERY_079
+ENTITY_0982,objects,valuables,QUERY_080
+ENTITY_0983,locations,apartment,QUERY_080
+ENTITY_0984,locations,dwelling house,QUERY_080
+ENTITY_0985,actions,entered,QUERY_080
+ENTITY_0986,actions,stole,QUERY_080
+ENTITY_0987,actions,taken,QUERY_080
+ENTITY_0988,actions,broke into,QUERY_080
+ENTITY_0989,actions,removed,QUERY_080
+ENTITY_0990,circumstances,not at home,QUERY_080
+ENTITY_0991,circumstances,without permission,QUERY_080
+ENTITY_0992,persons,accused,QUERY_080
+ENTITY_0993,persons,victim,QUERY_080
+ENTITY_0994,objects,electronics,QUERY_081
+ENTITY_0995,locations,apartment,QUERY_081
+ENTITY_0996,locations,dwelling house,QUERY_081
+ENTITY_0997,actions,entered,QUERY_081
+ENTITY_0998,actions,stole,QUERY_081
+ENTITY_0999,actions,taken,QUERY_081
+ENTITY_1000,actions,broke into,QUERY_081
+ENTITY_1001,actions,removed,QUERY_081
+ENTITY_1002,circumstances,not at home,QUERY_081
+ENTITY_1003,circumstances,without permission,QUERY_081
+ENTITY_1004,persons,accused,QUERY_081
+ENTITY_1005,persons,victim,QUERY_081
+ENTITY_1006,objects,money,QUERY_082
+ENTITY_1007,locations,room,QUERY_082
+ENTITY_1008,locations,dwelling house,QUERY_082
+ENTITY_1009,actions,entered,QUERY_082
+ENTITY_1010,actions,stole,QUERY_082
+ENTITY_1011,actions,taken,QUERY_082
+ENTITY_1012,actions,broke into,QUERY_082
+ENTITY_1013,actions,removed,QUERY_082
+ENTITY_1014,circumstances,not at home,QUERY_082
+ENTITY_1015,circumstances,without permission,QUERY_082
+ENTITY_1016,persons,accused,QUERY_082
+ENTITY_1017,persons,victim,QUERY_082
+ENTITY_1018,objects,money,QUERY_083
+ENTITY_1019,locations,home,QUERY_083
+ENTITY_1020,locations,dwelling house,QUERY_083
+ENTITY_1021,actions,entered,QUERY_083
+ENTITY_1022,actions,stole,QUERY_083
+ENTITY_1023,actions,taken,QUERY_083
+ENTITY_1024,actions,broke into,QUERY_083
+ENTITY_1025,actions,removed,QUERY_083
+ENTITY_1026,circumstances,not at home,QUERY_083
+ENTITY_1027,circumstances,without permission,QUERY_083
+ENTITY_1028,persons,accused,QUERY_083
+ENTITY_1029,persons,victim,QUERY_083
+ENTITY_1030,objects,jewelry,QUERY_084
+ENTITY_1031,locations,house,QUERY_084
+ENTITY_1032,locations,dwelling house,QUERY_084
+ENTITY_1033,actions,entered,QUERY_084
+ENTITY_1034,actions,stole,QUERY_084
+ENTITY_1035,actions,taken,QUERY_084
+ENTITY_1036,actions,broke into,QUERY_084
+ENTITY_1037,actions,removed,QUERY_084
+ENTITY_1038,circumstances,not at home,QUERY_084
+ENTITY_1039,circumstances,without permission,QUERY_084
+ENTITY_1040,persons,accused,QUERY_084
+ENTITY_1041,persons,victim,QUERY_084
+ENTITY_1042,objects,money,QUERY_085
+ENTITY_1043,locations,house,QUERY_085
+ENTITY_1044,locations,dwelling house,QUERY_085
+ENTITY_1045,actions,entered,QUERY_085
+ENTITY_1046,actions,stole,QUERY_085
+ENTITY_1047,actions,taken,QUERY_085
+ENTITY_1048,actions,broke into,QUERY_085
+ENTITY_1049,actions,removed,QUERY_085
+ENTITY_1050,circumstances,not at home,QUERY_085
+ENTITY_1051,circumstances,without permission,QUERY_085
+ENTITY_1052,persons,accused,QUERY_085
+ENTITY_1053,persons,victim,QUERY_085
+ENTITY_1054,objects,jewelry,QUERY_086
+ENTITY_1055,locations,apartment,QUERY_086
+ENTITY_1056,locations,dwelling house,QUERY_086
+ENTITY_1057,actions,entered,QUERY_086
+ENTITY_1058,actions,stole,QUERY_086
+ENTITY_1059,actions,taken,QUERY_086
+ENTITY_1060,actions,broke into,QUERY_086
+ENTITY_1061,actions,removed,QUERY_086
+ENTITY_1062,circumstances,not at home,QUERY_086
+ENTITY_1063,circumstances,without permission,QUERY_086
+ENTITY_1064,persons,accused,QUERY_086
+ENTITY_1065,persons,victim,QUERY_086
+ENTITY_1066,objects,jewelry,QUERY_087
+ENTITY_1067,locations,house,QUERY_087
+ENTITY_1068,locations,dwelling house,QUERY_087
+ENTITY_1069,actions,entered,QUERY_087
+ENTITY_1070,actions,stole,QUERY_087
+ENTITY_1071,actions,taken,QUERY_087
+ENTITY_1072,actions,broke into,QUERY_087
+ENTITY_1073,actions,removed,QUERY_087
+ENTITY_1074,circumstances,not at home,QUERY_087
+ENTITY_1075,circumstances,without permission,QUERY_087
+ENTITY_1076,persons,accused,QUERY_087
+ENTITY_1077,persons,victim,QUERY_087
+ENTITY_1078,objects,money,QUERY_088
+ENTITY_1079,locations,building,QUERY_088
+ENTITY_1080,locations,dwelling house,QUERY_088
+ENTITY_1081,actions,entered,QUERY_088
+ENTITY_1082,actions,stole,QUERY_088
+ENTITY_1083,actions,taken,QUERY_088
+ENTITY_1084,actions,broke into,QUERY_088
+ENTITY_1085,actions,removed,QUERY_088
+ENTITY_1086,circumstances,not at home,QUERY_088
+ENTITY_1087,circumstances,without permission,QUERY_088
+ENTITY_1088,persons,accused,QUERY_088
+ENTITY_1089,persons,victim,QUERY_088
+ENTITY_1090,objects,money,QUERY_089
+ENTITY_1091,locations,apartment,QUERY_089
+ENTITY_1092,locations,dwelling house,QUERY_089
+ENTITY_1093,actions,entered,QUERY_089
+ENTITY_1094,actions,stole,QUERY_089
+ENTITY_1095,actions,taken,QUERY_089
+ENTITY_1096,actions,broke into,QUERY_089
+ENTITY_1097,actions,removed,QUERY_089
+ENTITY_1098,circumstances,not at home,QUERY_089
+ENTITY_1099,circumstances,without permission,QUERY_089
+ENTITY_1100,persons,accused,QUERY_089
+ENTITY_1101,persons,victim,QUERY_089
+ENTITY_1102,objects,electronics,QUERY_090
+ENTITY_1103,locations,room,QUERY_090
+ENTITY_1104,locations,dwelling house,QUERY_090
+ENTITY_1105,actions,entered,QUERY_090
+ENTITY_1106,actions,stole,QUERY_090
+ENTITY_1107,actions,taken,QUERY_090
+ENTITY_1108,actions,broke into,QUERY_090
+ENTITY_1109,actions,removed,QUERY_090
+ENTITY_1110,circumstances,not at home,QUERY_090
+ENTITY_1111,circumstances,without permission,QUERY_090
+ENTITY_1112,persons,accused,QUERY_090
+ENTITY_1113,persons,victim,QUERY_090
+ENTITY_1114,objects,electronics,QUERY_091
+ENTITY_1115,locations,room,QUERY_091
+ENTITY_1116,locations,dwelling house,QUERY_091
+ENTITY_1117,actions,entered,QUERY_091
+ENTITY_1118,actions,stole,QUERY_091
+ENTITY_1119,actions,taken,QUERY_091
+ENTITY_1120,actions,broke into,QUERY_091
+ENTITY_1121,actions,removed,QUERY_091
+ENTITY_1122,circumstances,not at home,QUERY_091
+ENTITY_1123,circumstances,without permission,QUERY_091
+ENTITY_1124,persons,accused,QUERY_091
+ENTITY_1125,persons,victim,QUERY_091
+ENTITY_1126,objects,valuables,QUERY_092
+ENTITY_1127,locations,home,QUERY_092
+ENTITY_1128,locations,dwelling house,QUERY_092
+ENTITY_1129,actions,entered,QUERY_092
+ENTITY_1130,actions,stole,QUERY_092
+ENTITY_1131,actions,taken,QUERY_092
+ENTITY_1132,actions,broke into,QUERY_092
+ENTITY_1133,actions,removed,QUERY_092
+ENTITY_1134,circumstances,not at home,QUERY_092
+ENTITY_1135,circumstances,without permission,QUERY_092
+ENTITY_1136,persons,accused,QUERY_092
+ENTITY_1137,persons,victim,QUERY_092
+ENTITY_1138,objects,electronics,QUERY_093
+ENTITY_1139,locations,house,QUERY_093
+ENTITY_1140,locations,dwelling house,QUERY_093
+ENTITY_1141,actions,entered,QUERY_093
+ENTITY_1142,actions,stole,QUERY_093
+ENTITY_1143,actions,taken,QUERY_093
+ENTITY_1144,actions,broke into,QUERY_093
+ENTITY_1145,actions,removed,QUERY_093
+ENTITY_1146,circumstances,not at home,QUERY_093
+ENTITY_1147,circumstances,without permission,QUERY_093
+ENTITY_1148,persons,accused,QUERY_093
+ENTITY_1149,persons,victim,QUERY_093
+ENTITY_1150,objects,electronics,QUERY_094
+ENTITY_1151,locations,home,QUERY_094
+ENTITY_1152,locations,dwelling house,QUERY_094
+ENTITY_1153,actions,entered,QUERY_094
+ENTITY_1154,actions,stole,QUERY_094
+ENTITY_1155,actions,taken,QUERY_094
+ENTITY_1156,actions,broke into,QUERY_094
+ENTITY_1157,actions,removed,QUERY_094
+ENTITY_1158,circumstances,not at home,QUERY_094
+ENTITY_1159,circumstances,without permission,QUERY_094
+ENTITY_1160,persons,accused,QUERY_094
+ENTITY_1161,persons,victim,QUERY_094
+ENTITY_1162,objects,jewelry,QUERY_095
+ENTITY_1163,locations,building,QUERY_095
+ENTITY_1164,locations,dwelling house,QUERY_095
+ENTITY_1165,actions,entered,QUERY_095
+ENTITY_1166,actions,stole,QUERY_095
+ENTITY_1167,actions,taken,QUERY_095
+ENTITY_1168,actions,broke into,QUERY_095
+ENTITY_1169,actions,removed,QUERY_095
+ENTITY_1170,circumstances,not at home,QUERY_095
+ENTITY_1171,circumstances,without permission,QUERY_095
+ENTITY_1172,persons,accused,QUERY_095
+ENTITY_1173,persons,victim,QUERY_095
+ENTITY_1174,objects,electronics,QUERY_096
+ENTITY_1175,locations,room,QUERY_096
+ENTITY_1176,locations,dwelling house,QUERY_096
+ENTITY_1177,actions,entered,QUERY_096
+ENTITY_1178,actions,stole,QUERY_096
+ENTITY_1179,actions,taken,QUERY_096
+ENTITY_1180,actions,broke into,QUERY_096
+ENTITY_1181,actions,removed,QUERY_096
+ENTITY_1182,circumstances,not at home,QUERY_096
+ENTITY_1183,circumstances,without permission,QUERY_096
+ENTITY_1184,persons,accused,QUERY_096
+ENTITY_1185,persons,victim,QUERY_096
+ENTITY_1186,objects,valuables,QUERY_097
+ENTITY_1187,locations,room,QUERY_097
+ENTITY_1188,locations,dwelling house,QUERY_097
+ENTITY_1189,actions,entered,QUERY_097
+ENTITY_1190,actions,stole,QUERY_097
+ENTITY_1191,actions,taken,QUERY_097
+ENTITY_1192,actions,broke into,QUERY_097
+ENTITY_1193,actions,removed,QUERY_097
+ENTITY_1194,circumstances,not at home,QUERY_097
+ENTITY_1195,circumstances,without permission,QUERY_097
+ENTITY_1196,persons,accused,QUERY_097
+ENTITY_1197,persons,victim,QUERY_097
+ENTITY_1198,objects,electronics,QUERY_098
+ENTITY_1199,locations,room,QUERY_098
+ENTITY_1200,locations,dwelling house,QUERY_098
+ENTITY_1201,actions,entered,QUERY_098
+ENTITY_1202,actions,stole,QUERY_098
+ENTITY_1203,actions,taken,QUERY_098
+ENTITY_1204,actions,broke into,QUERY_098
+ENTITY_1205,actions,removed,QUERY_098
+ENTITY_1206,circumstances,not at home,QUERY_098
+ENTITY_1207,circumstances,without permission,QUERY_098
+ENTITY_1208,persons,accused,QUERY_098
+ENTITY_1209,persons,victim,QUERY_098
+ENTITY_1210,objects,electronics,QUERY_099
+ENTITY_1211,locations,home,QUERY_099
+ENTITY_1212,locations,dwelling house,QUERY_099
+ENTITY_1213,actions,entered,QUERY_099
+ENTITY_1214,actions,stole,QUERY_099
+ENTITY_1215,actions,taken,QUERY_099
+ENTITY_1216,actions,broke into,QUERY_099
+ENTITY_1217,actions,removed,QUERY_099
+ENTITY_1218,circumstances,not at home,QUERY_099
+ENTITY_1219,circumstances,without permission,QUERY_099
+ENTITY_1220,persons,accused,QUERY_099
+ENTITY_1221,persons,victim,QUERY_099
+ENTITY_1222,objects,money,QUERY_100
+ENTITY_1223,locations,shop,QUERY_100
+ENTITY_1224,actions,took,QUERY_100
+ENTITY_1225,actions,stole,QUERY_100
+ENTITY_1226,actions,dishonestly took,QUERY_100
+ENTITY_1227,persons,employee,QUERY_100
+ENTITY_1228,persons,employer,QUERY_100
+ENTITY_1229,persons,staff member,QUERY_100
+ENTITY_1230,persons,owner,QUERY_100
+ENTITY_1231,relationships,employee-employer,QUERY_100
+ENTITY_1232,relationships,worker-boss,QUERY_100
+ENTITY_1233,circumstances,trusted with access,QUERY_100
+ENTITY_1234,circumstances,from workplace,QUERY_100
