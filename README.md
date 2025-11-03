@@ -218,7 +218,15 @@ data/csv_friend/bns_ch17_final_cleaned.csv
 
 **C. Run the Import Query:**
 
-In Neo4j Browser (http://localhost:7474), ensure you're using the `legalknowledge` database, then run:
+In Neo4j Browser (http://localhost:7474), ensure you're using the `legalknowledge` database.
+
+**Option 1: Use the provided Cypher file (Recommended)**
+
+Open `neo4j_import.cypher` from the project root. This file contains all import and verification queries with detailed comments. Copy and run the queries step-by-step.
+
+**Option 2: Manual query**
+
+Run this query directly:
 
 ```cypher
 LOAD CSV WITH HEADERS FROM 'file:///bns_ch17_final_cleaned.csv' AS row
