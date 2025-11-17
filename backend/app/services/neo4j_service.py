@@ -50,497 +50,170 @@ class Neo4jService:
         """Close Neo4j connection"""
         if self.driver:
             self.driver.close()
-    
+
     def find_applicable_laws(self, entities: Dict[str, List[str]]) -> List[Dict[str, Any]]:
         """
-        Find applicable BNS laws based on extracted entities using knowledge graph
+        Find applicable BNS laws using graph-based Cypher queries
+
+        This method uses the Neo4j knowledge graph for legal reasoning.
+        Benefits:
+        - No hardcoded keyword lists in code
+        - Add new legal patterns via graph, not code changes
+        - Provides explainable reasoning (shows which patterns matched)
+        - Faster graph queries vs Python keyword loops
+        - Better natural language understanding
 
         Args:
             entities: Dictionary of entity categories and their values
+                     (actions, objects, locations, persons, etc.)
 
         Returns:
-            List of applicable law sections with confidence scores
+            List of applicable law sections with confidence scores and reasoning
         """
-        # Use fallback reasoning if Neo4j not available
         if not self.available or not self.driver:
             return self._fallback_legal_reasoning(entities)
 
-        applicable_laws = []
+        all_laws = []
+        user_actions = entities.get("actions", [])
+        user_locations = entities.get("locations", [])
+        user_objects = entities.get("objects", [])
+
+        if not user_actions and not user_locations:
+            return []
 
         try:
             with self.driver.session(database="legalknowledge") as session:
-                # Rule 1: Basic theft detection (Section 303)
-                if self._has_theft_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 303 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
+                # Query 1: Action-based matching using ActionPattern nodes
+                if user_actions:
+                    action_results = session.run("""
+                        // Step 1: Find action patterns that match user's actions
+                        UNWIND $user_actions AS user_action
+                        MATCH (ap:ActionPattern)
+                        WHERE toLower(ap.text) CONTAINS toLower(user_action)
+                           OR toLower(user_action) CONTAINS toLower(ap.text)
 
-                    for record in result:
-                        applicable_laws.append({
+                        // Step 2: Find which offences these patterns match
+                        MATCH (ap)-[:MATCHES]->(offence:Offence)
+
+                        // Step 3: Find the section that defines this offence
+                        MATCH (section:Section)-[:DEFINES]->(offence)
+
+                        // Step 4: Get punishment details
+                        MATCH (section)-[:PRESCRIBES]->(punishment:Punishment)
+
+                        // Step 5: Collect matched patterns for reasoning
+                        WITH section, offence, punishment,
+                             collect(DISTINCT ap.text) as matched_patterns,
+                             count(DISTINCT ap) as pattern_count
+
+                        // Step 6: Return results
+                        RETURN DISTINCT
+                            section.section_id as section,
+                            section.section_number as section_number,
+                            section.title as title,
+                            section.text as description,
+                            punishment.description as punishment,
+                            offence.offence_type as offence_type,
+                            offence.category as category,
+                            matched_patterns,
+                            pattern_count
+
+                        ORDER BY pattern_count DESC
+                        LIMIT 10
+                    """, user_actions=user_actions)
+
+                    for record in action_results:
+                        # Calculate confidence based on pattern matches
+                        base_confidence = min(0.6 + (record["pattern_count"] * 0.05), 0.95)
+
+                        all_laws.append({
                             "section": record["section"],
+                            "section_number": record["section_number"],
                             "title": record["title"],
                             "description": record["description"],
                             "punishment": record["punishment"],
-                            "severity": record["severity"],
                             "offence_type": record["offence_type"],
-                            "confidence": 0.8,
-                            "reasoning": "Basic theft elements detected",
-                            "property_value_consideration": True  # Section 303 has value thresholds
+                            "category": record["category"],
+                            "confidence": base_confidence,
+                            "reasoning": f"Matched action patterns: {', '.join(record['matched_patterns'][:3])}",
+                            "matched_patterns": record["matched_patterns"],
+                            "pattern_count": record["pattern_count"],
+                            "detection_method": "graph_action_matching"
                         })
 
-                # Rule 2: Dwelling house theft (Section 305)
-                if self._has_dwelling_theft_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 305 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
+                # Query 2: Location-based matching for dwelling/trespass offences
+                if user_locations:
+                    location_results = session.run("""
+                        UNWIND $locations AS user_location
 
-                    for record in result:
-                        applicable_laws.append({
+                        // Find circumstance elements related to locations
+                        MATCH (circ:Circumstance)
+                        WHERE toLower(circ.name) CONTAINS 'dwelling'
+                           OR toLower(circ.name) CONTAINS 'house'
+                           OR toLower(circ.name) CONTAINS 'property'
+                           OR toLower(user_location) CONTAINS 'house'
+                           OR toLower(user_location) CONTAINS 'home'
+                           OR toLower(user_location) CONTAINS 'building'
+
+                        // Find offences requiring this circumstance
+                        MATCH (offence:Offence)-[:REQUIRES_CIRCUMSTANCE]->(circ)
+                        MATCH (section:Section)-[:DEFINES]->(offence)
+                        MATCH (section)-[:PRESCRIBES]->(punishment:Punishment)
+
+                        RETURN DISTINCT
+                            section.section_id as section,
+                            section.section_number as section_number,
+                            section.title as title,
+                            section.text as description,
+                            punishment.description as punishment,
+                            offence.offence_type as offence_type,
+                            offence.category as category,
+                            circ.name as circumstance_matched,
+                            user_location as location_provided
+
+                        LIMIT 5
+                    """, locations=user_locations)
+
+                    for record in location_results:
+                        all_laws.append({
                             "section": record["section"],
+                            "section_number": record["section_number"],
                             "title": record["title"],
                             "description": record["description"],
                             "punishment": record["punishment"],
-                            "severity": record["severity"],
                             "offence_type": record["offence_type"],
-                            "confidence": 0.9,
-                            "reasoning": "Theft in dwelling house detected"
+                            "category": record["category"],
+                            "confidence": 0.75,
+                            "reasoning": f"Location match: {record['location_provided']} requires circumstance '{record['circumstance_matched']}'",
+                            "circumstance_matched": record["circumstance_matched"],
+                            "detection_method": "graph_location_matching"
                         })
 
-                # Rule 3: Employee theft (Section 306)
-                if self._has_employee_theft_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 306 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"],
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.85,
-                            "reasoning": "Employee theft scenario detected"
-                        })
-
-                # Rule 4: Robbery detection (Section 309)
-                if self._has_robbery_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 309 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"],
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.9,
-                            "reasoning": "Robbery elements detected (violence/force used)"
-                        })
-
-                # Rule 5: Snatching detection (Section 304)
-                if self._has_snatching_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 304 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Snatching involves sudden and forceful taking of property",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.85,
-                            "reasoning": "Snatching elements detected (sudden forceful taking)"
-                        })
-
-                # Rule 6: Cheating detection (Section 318)
-                if self._has_cheating_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 318 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Cheating involves dishonest inducement to deliver property or do/omit an act",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.9,
-                            "reasoning": "Cheating elements detected (deception/fraud identified)"
-                        })
-
-                # Rule 7: Criminal breach of trust detection (Section 316)
-                if self._has_breach_of_trust_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 316 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Criminal breach of trust involves dishonest misappropriation of entrusted property",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.9,
-                            "reasoning": "Breach of trust elements detected (trust relationship violated)"
-                        })
-
-                # Rule 8: Extortion detection (Section 308)
-                if self._has_extortion_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 308 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Extortion involves threatening someone to obtain money, property, or compliance",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.9,
-                            "reasoning": "Extortion elements detected (threat-based coercion)"
-                        })
-
-                # Rule 9: Criminal trespass detection (Section 329)
-                if self._has_trespass_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 329 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Criminal trespass involves unlawfully entering someone's property",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.85,
-                            "reasoning": "Criminal trespass elements detected (unlawful entry)"
-                        })
-
-                # Rule 10: Mischief detection (Section 324)
-                if self._has_mischief_elements(entities):
-                    result = session.run("""
-                        MATCH (s:Section)-[:DEFINES]->(o:Offence)
-                        MATCH (p:Punishment)
-                        WHERE s.section_number = 324 AND p.section_id = s.section_id
-                        RETURN s.section_id as section, s.title as title,
-                               s.text as description, p.description as punishment,
-                               p.punishment_type as severity, o.type as offence_type
-                    """)
-
-                    for record in result:
-                        applicable_laws.append({
-                            "section": record["section"],
-                            "title": record["title"],
-                            "description": record["description"] or "Mischief involves intentional damage or destruction of property",
-                            "punishment": record["punishment"],
-                            "severity": record["severity"],
-                            "offence_type": record["offence_type"],
-                            "confidence": 0.85,
-                            "reasoning": "Mischief elements detected (property damage)"
-                        })
-
-            return applicable_laws
+                # Add property value estimation if objects present
+                if user_objects:
+                    value_result = self.property_estimator.estimate_value(user_objects)
+                    property_value = value_result.get("total_value", 0)
+                    for law in all_laws:
+                        law["estimated_property_value"] = property_value
+                        law["property_objects"] = user_objects
 
         except Exception as e:
-            logger.error(f"Neo4j query failed, using fallback: {e}")
+            logger.error(f"Graph-based query failed: {e}")
+            # Fallback to basic legal reasoning if graph fails
             return self._fallback_legal_reasoning(entities)
-    
-    def _has_theft_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate basic theft"""
-        actions = entities.get("actions", [])
-        objects = entities.get("objects", [])
-        intentions = entities.get("intentions", [])
-        
-        theft_actions = ["took", "stolen", "stole", "theft", "stealing", "grabbed", "snatched", "broke into", "borrowed", "taken", "kept", "appropriated"]
-        property_objects = ["phone", "mobile", "iphone", "smartphone", "wallet", "money", "cash", "bag", "purse", "jewelry", "laptop", "computer"]
-        dishonest_intentions = ["without permission", "dishonest", "wrongfully", "dishonestly"]
 
-        has_theft_action = any(theft_action.lower() in action.lower() for action in actions for theft_action in theft_actions)
-        has_property = any(prop.lower() in obj.lower() for obj in objects for prop in property_objects)
-        has_dishonest_intent = any(intent.lower() in dishonest_intentions for intent in intentions)
-        
-        # For basic theft, we only require theft action + property (intention is implied)
-        return has_theft_action and has_property
-    
-    def _has_dwelling_theft_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate theft in dwelling"""
-        locations = entities.get("locations", [])
-        actions = entities.get("actions", [])
-        
-        dwelling_locations = ["house", "home", "apartment", "residence", "building", "room"]
-        theft_actions = ["took", "stolen", "stole", "theft", "stealing", "grabbed", "snatched", "broke into", "borrowed", "taken", "kept", "appropriated"]
+        # Deduplicate by section_id, keeping highest confidence
+        seen_sections = {}
+        for law in all_laws:
+            section_id = law["section"]
+            if section_id not in seen_sections or law["confidence"] > seen_sections[section_id]["confidence"]:
+                seen_sections[section_id] = law
 
-        has_dwelling = any(dwelling.lower() in loc.lower() for loc in locations for dwelling in dwelling_locations)
-        has_theft = any(theft_action.lower() in action.lower() for action in actions for theft_action in theft_actions)
-        
-        return has_dwelling and has_theft
-    
-    def _has_employee_theft_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate employee theft"""
-        persons = entities.get("persons", [])
-        relationships = entities.get("relationships", [])
-        actions = entities.get("actions", [])
+        # Sort by confidence and return
+        unique_laws = sorted(seen_sections.values(), key=lambda x: x["confidence"], reverse=True)
 
-        employee_terms = ["employee", "worker", "staff", "clerk", "servant"]
-        employer_terms = ["employer", "boss", "company", "master"]
-        theft_actions = ["took", "stolen", "stole", "theft", "stealing", "grabbed", "snatched", "broke into", "borrowed", "taken", "kept", "appropriated"]
+        return unique_laws
 
-        has_employee = any(person.lower() in employee_terms for person in persons)
-        has_employer = any(rel.lower() in employer_terms for rel in relationships)
-        has_theft = any(action.lower() in theft_actions for action in actions)
-
-        return has_employee and has_employer and has_theft
-
-    def _has_robbery_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate robbery (theft with violence/force)"""
-        actions = entities.get("actions", [])
-        violence_indicators = entities.get("violence", [])
-        objects = entities.get("objects", [])
-
-        theft_actions = ["took", "stolen", "theft", "stealing", "robbed", "snatched", "grabbed"]
-        violence_terms = ["violence", "force", "hurt", "threatened", "attacked", "beaten", "knife", "gun", "weapon"]
-        property_objects = ["phone", "mobile", "iphone", "smartphone", "wallet", "money", "cash", "bag", "purse", "jewelry", "laptop", "computer"]
-
-        has_theft = any(action.lower() in theft_actions for action in actions)
-        has_violence = any(
-            violence.lower() in violence_terms for violence in violence_indicators
-        ) or any(action.lower() in violence_terms for action in actions)
-        has_property = any(obj.lower() in property_objects for obj in objects)
-
-        return has_theft and has_violence and has_property
-
-    def _has_snatching_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate snatching (sudden forceful taking)"""
-        actions = entities.get("actions", [])
-        objects = entities.get("objects", [])
-        circumstances = entities.get("circumstances", [])
-        locations = entities.get("locations", [])
-
-        # Snatching-specific indicators
-        snatching_actions = ["snatched", "grabbed", "yanked", "pulled", "jerked", "ripped", "tore", "forcefully took"]
-        snatching_circumstances = ["suddenly", "quickly", "fast", "running", "speeding", "motorcycle", "bike", "scooter"]
-        snatching_objects = ["chain", "necklace", "bag", "purse", "phone", "mobile", "wallet", "earrings", "watch"]
-        public_locations = ["street", "road", "footpath", "market", "bus stop", "station", "park", "outside"]
-
-        has_snatching_action = any(snatch_action.lower() in action.lower() for action in actions for snatch_action in snatching_actions)
-        has_sudden_element = any(circumstance.lower() in snatching_circumstances for circumstance in circumstances)
-        has_snatching_object = any(obj.lower() in snatching_objects for obj in objects)
-        has_public_location = any(location.lower() in public_locations for location in locations)
-
-        # Snatching requires forceful action + property + (sudden element OR public location)
-        return has_snatching_action and has_snatching_object and (has_sudden_element or has_public_location)
-
-    def _has_cheating_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate cheating/fraud"""
-        actions = entities.get("actions", [])
-        intentions = entities.get("intentions", [])
-        circumstances = entities.get("circumstances", [])
-
-        # Cheating-specific indicators
-        cheating_actions = ["cheated", "deceived", "defrauded", "scammed", "tricked", "misled", "promised", "lied", "convinced", "persuaded", "fooled"]
-        fraud_intentions = ["dishonest", "fraudulent", "fake", "false", "misleading", "deceptive"]
-        fraud_circumstances = ["online", "phone call", "fake website", "false documents", "impersonation", "lottery", "prize"]
-
-        # Common fraud patterns
-        fraud_patterns = ["investment", "loan", "credit card", "bank account", "OTP", "ATM", "digital payment", "cryptocurrency"]
-
-        # Check all entity types for fraud indicators
-        all_text = " ".join(actions + intentions + circumstances).lower()
-
-        has_cheating_action = any(cheat_action.lower() in action.lower() for action in actions for cheat_action in cheating_actions)
-        has_fraud_intention = any(fraud_int.lower() in intention.lower() for intention in intentions for fraud_int in fraud_intentions)
-        has_fraud_circumstance = any(fraud_circ.lower() in circumstance.lower() for circumstance in circumstances for fraud_circ in fraud_circumstances)
-        has_fraud_pattern = any(pattern in all_text for pattern in fraud_patterns)
-
-        # Cheating can be detected by:
-        # 1. Strong cheating action (scammed, defrauded) alone
-        # 2. OR (cheating action OR fraud intention) + (fraud circumstance OR fraud pattern)
-        strong_cheating_actions = ["scammed", "defrauded", "cheated", "fraudulently"]
-        has_strong_cheating = any(strong_action.lower() in action.lower() for action in actions for strong_action in strong_cheating_actions)
-
-        return has_strong_cheating or ((has_cheating_action or has_fraud_intention) and (has_fraud_circumstance or has_fraud_pattern))
-
-    def _has_breach_of_trust_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate criminal breach of trust"""
-        actions = entities.get("actions", [])
-        relationships = entities.get("relationships", [])
-        circumstances = entities.get("circumstances", [])
-        intentions = entities.get("intentions", [])
-
-        # Trust-specific indicators
-        trust_actions = ["misappropriated", "misused", "betrayed", "violated trust", "dishonestly used", "converted", "embezzled"]
-        trust_relationships = ["entrusted", "trustee", "fiduciary", "agent", "guardian", "manager", "executor", "director"]
-        trust_circumstances = ["entrusted with", "given responsibility", "in charge of", "managing", "handling", "responsible for"]
-        dishonest_intentions = ["dishonest", "wrongful", "unauthorized", "personal use", "own benefit"]
-
-        # Check all entity types for trust indicators
-        all_text = " ".join(actions + relationships + circumstances + intentions).lower()
-
-        has_trust_action = any(trust_action.lower() in action.lower() for action in actions for trust_action in trust_actions)
-        has_trust_relationship = any(trust_rel.lower() in rel.lower() for rel in relationships for trust_rel in trust_relationships)
-        has_trust_circumstance = any(trust_circ.lower() in circumstance.lower() for circumstance in circumstances for trust_circ in trust_circumstances)
-        has_dishonest_intention = any(dishonest_int.lower() in intention.lower() for intention in intentions for dishonest_int in dishonest_intentions)
-
-        # Also check for trust indicators in the combined text
-        has_trust_pattern = any(pattern in all_text for pattern in trust_relationships + trust_circumstances)
-
-        # Check for dishonest elements in circumstances as well
-        has_dishonest_circumstance = any(dishonest_int.lower() in circumstance.lower() for circumstance in circumstances for dishonest_int in dishonest_intentions)
-
-        # Breach of trust requires: trust relationship/circumstance + (dishonest action OR intention OR circumstance)
-        return (has_trust_relationship or has_trust_circumstance or has_trust_pattern) and (has_trust_action or has_dishonest_intention or has_dishonest_circumstance)
-
-    def _has_extortion_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate extortion"""
-        actions = entities.get("actions", [])
-        circumstances = entities.get("circumstances", [])
-        intentions = entities.get("intentions", [])
-        methods = entities.get("methods", [])
-
-        # Extortion-specific indicators (including semantic mappings)
-        threat_actions = ["threatened", "blackmailed", "intimidated", "coerced", "forced", "demanded", "extorted", "pressured", "warned", "told"]
-        threat_methods = ["violence", "harm", "exposure", "reputation damage", "legal action", "physical harm"]
-        threat_circumstances = ["under threat", "fear", "pressure", "demanding money", "pay or else"]
-        threat_objects = ["money", "property", "compliance", "silence", "cooperation"]
-
-        # Check all entity types for threat indicators
-        all_text = " ".join(actions + circumstances + intentions + methods).lower()
-
-        has_threat_action = any(threat_action.lower() in action.lower() for action in actions for threat_action in threat_actions)
-        has_threat_method = any(threat_method.lower() in method.lower() for method in methods for threat_method in threat_methods)
-        has_threat_circumstance = any(threat_circ.lower() in circumstance.lower() for circumstance in circumstances for threat_circ in threat_circumstances)
-
-        # Also check for threat patterns in combined text
-        has_threat_pattern = any(pattern in all_text for pattern in threat_actions + threat_methods + threat_circumstances)
-
-        # Extortion requires threat indicators
-        return has_threat_action or has_threat_method or has_threat_circumstance or has_threat_pattern
-
-    def _has_trespass_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate criminal trespass"""
-        actions = entities.get("actions", [])
-        locations = entities.get("locations", [])
-        circumstances = entities.get("circumstances", [])
-        intentions = entities.get("intentions", [])
-
-        # Trespass-specific indicators (including semantic mappings)
-        trespass_actions = ["entered", "broke into", "trespassed", "intruded", "invaded", "climbed over", "jumped over", "snuck into", "came inside", "went into", "accessed"]
-        trespass_locations = ["house", "home", "property", "land", "building", "apartment", "office", "compound", "premises", "yard", "garden", "roof"]
-        unlawful_circumstances = ["without permission", "unauthorized", "illegally", "unlawfully", "forcibly", "broke in", "climbed", "scaled", "fence", "wall", "gate", "boundary"]
-        trespass_intentions = ["to steal", "to commit", "unlawful purpose", "criminal intent"]
-
-        # Check all entity types for trespass indicators
-        all_text = " ".join(actions + locations + circumstances + intentions).lower()
-
-        has_trespass_action = any(trespass_action.lower() in action.lower() for action in actions for trespass_action in trespass_actions)
-        has_property_location = any(location.lower() in loc.lower() for loc in locations for location in trespass_locations)
-        has_unlawful_circumstance = any(unlawful_circ.lower() in circumstance.lower() for circumstance in circumstances for unlawful_circ in unlawful_circumstances)
-
-        # Also check for trespass patterns in combined text
-        has_trespass_pattern = any(pattern in all_text for pattern in trespass_actions + unlawful_circumstances)
-
-        # Criminal trespass requires entry action + property location OR unlawful circumstances
-        return (has_trespass_action and has_property_location) or has_unlawful_circumstance or has_trespass_pattern
-
-    def _has_mischief_elements(self, entities: Dict[str, List[str]]) -> bool:
-        """Check if entities indicate mischief (property damage)"""
-        actions = entities.get("actions", [])
-        objects = entities.get("objects", [])
-        circumstances = entities.get("circumstances", [])
-        intentions = entities.get("intentions", [])
-
-        # Mischief-specific indicators
-        damage_actions = ["damaged", "destroyed", "broke", "vandalized", "defaced", "demolished", "ruined", "smashed", "burnt", "torn", "cut", "scratched"]
-        property_objects = ["car", "vehicle", "window", "door", "wall", "fence", "property", "building", "house", "furniture", "equipment", "machine", "computer", "phone"]
-        damage_circumstances = ["intentionally", "deliberately", "maliciously", "willfully", "on purpose", "angry", "revenge"]
-        malicious_intentions = ["to harm", "to damage", "revenge", "anger", "spite", "malice"]
-
-        # Check all entity types for mischief indicators
-        all_text = " ".join(actions + objects + circumstances + intentions).lower()
-
-        has_damage_action = any(damage_action.lower() in action.lower() for action in actions for damage_action in damage_actions)
-        has_property_object = any(prop_obj.lower() in obj.lower() for obj in objects for prop_obj in property_objects)
-        has_damage_circumstance = any(damage_circ.lower() in circumstance.lower() for circumstance in circumstances for damage_circ in damage_circumstances)
-        has_malicious_intention = any(malicious_int.lower() in intention.lower() for intention in intentions for malicious_int in malicious_intentions)
-
-        # Also check for damage patterns in combined text
-        has_damage_pattern = any(pattern in all_text for pattern in damage_actions + damage_circumstances)
-
-        # Check for accidental indicators (should exclude mischief)
-        accidental_indicators = ["accidentally", "accidental", "by mistake", "unintentionally", "fell", "dropped", "slipped"]
-        has_accidental_indicator = any(acc_ind in all_text for acc_ind in accidental_indicators)
-
-        # Mischief requires intentional damage: (damage action + property object + intent) OR intentional circumstances
-        has_intentional_damage = has_damage_action and has_property_object and (has_damage_circumstance or has_malicious_intention)
-
-        # Also allow strong damage actions that imply intent (like vandalized, defaced)
-        strong_damage_actions = ["vandalized", "defaced", "demolished", "smashed", "burnt"]
-        has_strong_damage_action = any(strong_action.lower() in action.lower() for action in actions for strong_action in strong_damage_actions)
-        has_strong_intentional_damage = has_strong_damage_action and has_property_object
-
-        # Exclude accidental damage
-        return (has_intentional_damage or has_strong_intentional_damage or has_damage_circumstance or has_malicious_intention) and not has_accidental_indicator
 
     def enhance_with_property_analysis(self, applicable_laws: List[Dict[str, Any]], entities: Dict[str, List[str]]) -> List[Dict[str, Any]]:
         """Enhance legal analysis with property value considerations"""
