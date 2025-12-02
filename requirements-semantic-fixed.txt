@@ -1,0 +1,16 @@
+# Semantic Similarity Enhancement Requirements
+# Fixed version compatibility issues
+
+# Core Semantic/Embeddings
+sentence-transformers==2.2.2
+torch>=1.9.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# Supporting libraries - FIXED VERSIONS
+scipy>=1.7.0
+transformers>=4.30.0
+huggingface-hub==0.16.4  # Pinned to compatible version (was causing cached_download error)
+
+# Performance & optimization
+tqdm>=4.64.0

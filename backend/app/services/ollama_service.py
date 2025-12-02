@@ -9,6 +9,14 @@ import logging
 from app.core.config import settings
 from app.services.property_value_estimator import PropertyValueEstimator
 
+# Semantic Enhancement Integration - Implemented by: Vaishnav
+try:
+    from app.services.semantic_integration import SemanticEnhancedEntityExtraction
+    SEMANTIC_AVAILABLE = True
+except ImportError:
+    SEMANTIC_AVAILABLE = False
+    logging.warning("Semantic enhancement not available - continuing with basic entity extraction")
+
 logger = logging.getLogger(__name__)
 
 
@@ -20,6 +28,17 @@ class OllamaService:
         self.model = settings.OLLAMA_MODEL
         self.session = requests.Session()
         self.value_estimator = PropertyValueEstimator()
+
+        # Initialize semantic enhancement - Implemented by: Vaishnav
+        if SEMANTIC_AVAILABLE:
+            try:
+                self.semantic_enhancer = SemanticEnhancedEntityExtraction()
+                logger.info("Semantic enhancement initialized successfully")
+            except Exception as e:
+                logger.error(f"Failed to initialize semantic enhancement: {e}")
+                self.semantic_enhancer = None
+        else:
+            self.semantic_enhancer = None
     
     def is_available(self) -> bool:
         """Check if Ollama service is available"""
@@ -33,12 +52,23 @@ class OllamaService:
     def extract_entities(self, user_query: str, language: str = "en") -> Dict[str, List[str]]:
         """
         Extract factual entities from user query using Phi-3
+        Enhanced with semantic similarity matching - Implemented by: Vaishnav
         IMPORTANT: This does NOT classify legal applicability - only extracts facts
         """
 
         # For demo reliability, use fallback entity extraction
         logger.info("Using fallback entity extraction for demo reliability")
         entities = self._extract_entities_fallback(user_query.lower())
+
+        # Apply semantic enhancement to improve action detection - Implemented by: Vaishnav
+        if self.semantic_enhancer is not None:
+            try:
+                logger.info("Applying semantic enhancement to entities")
+                entities = self.semantic_enhancer.enhance_entity_extraction(user_query, entities)
+                logger.info(f"Semantic enhancement applied - confidence: {entities.get('semantic_confidence', 0):.2%}")
+            except Exception as e:
+                logger.error(f"Semantic enhancement failed, continuing with basic entities: {e}")
+                # Graceful degradation - continue with basic entities
 
         # Add property value estimation for objects
         if "objects" in entities and entities["objects"]:
