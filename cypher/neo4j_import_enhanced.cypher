@@ -13,7 +13,7 @@
 // WARNING: This will delete ALL data in the graph!
 // Uncomment the lines below only if you want to start fresh
 
-// MATCH (n) DETACH DELETE n;
+MATCH (n) DETACH DELETE n;
 
 
 // ====================================================================
@@ -119,7 +119,7 @@ WITH offence, row, split(row.mens_rea, '|') AS mens_rea_list
 UNWIND mens_rea_list AS mens_rea_item
 WITH offence, mens_rea_item
 WHERE mens_rea_item IS NOT NULL AND trim(mens_rea_item) <> ''
-MERGE (element:LegalElement:MensRea {element_id: trim(mens_rea_item)})
+MERGE (element:LegalElement:MensRea {element_id: 'mens_rea_' + trim(mens_rea_item)})
 ON CREATE SET
     element.name = trim(mens_rea_item),
     element.element_type = 'mens_rea',
@@ -138,7 +138,7 @@ WITH offence, row, split(row.actus_reus, '|') AS actus_reus_list
 UNWIND actus_reus_list AS actus_reus_item
 WITH offence, actus_reus_item
 WHERE actus_reus_item IS NOT NULL AND trim(actus_reus_item) <> ''
-MERGE (element:LegalElement:ActusReus {element_id: trim(actus_reus_item)})
+MERGE (element:LegalElement:ActusReus {element_id: 'actus_reus_' + trim(actus_reus_item)})
 ON CREATE SET
     element.name = trim(actus_reus_item),
     element.element_type = 'actus_reus',
@@ -157,7 +157,7 @@ WITH offence, row, split(row.circumstances, '|') AS circumstances_list
 UNWIND circumstances_list AS circumstance_item
 WITH offence, circumstance_item
 WHERE circumstance_item IS NOT NULL AND trim(circumstance_item) <> ''
-MERGE (element:LegalElement:Circumstance {element_id: trim(circumstance_item)})
+MERGE (element:LegalElement:Circumstance {element_id: 'circumstance_' + trim(circumstance_item)})
 ON CREATE SET
     element.name = trim(circumstance_item),
     element.element_type = 'circumstance',

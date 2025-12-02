@@ -7,3 +7,6 @@
 7. Finally, add a review section to the [todo.md] file with a summary of the changes you made and any other relevant information.
 8. Don't use Unicode characters like emoji/icons in the code.
 9. Try to run commands in the Command Prompt on your own. Only if u face timeout errors, or feel that the command has security risk, then stop and give me the command. I will run it for u and give u the output.
+10. If you write .md files for documentation or analysis, store it in docs folder.
+11. If you write file for testing, after testing is finished, store it in tests folder
+12. If you write cypher files, store it in cypher folder
