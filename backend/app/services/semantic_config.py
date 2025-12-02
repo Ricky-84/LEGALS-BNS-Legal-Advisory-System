@@ -1,5 +1,6 @@
 """
 Configuration for Semantic Enhancement
+Implemented by: Vaishnav
 """
 
 # Semantic Similarity Configuration

@@ -1,10 +1,11 @@
 """
 Unit tests for Semantic Similarity Service
+Implemented by: Vaishnav
 """
 import unittest
 import logging
-from semantic_service import SemanticMappingService, SemanticCache
-from semantic_config import SEMANTIC_SIMILARITY_THRESHOLD
+from .semantic_service import SemanticMappingService, SemanticCache
+from .semantic_config import SEMANTIC_SIMILARITY_THRESHOLD
 
 logging.basicConfig(level=logging.INFO)
 
@@ -153,7 +154,7 @@ class TestSemanticIntegration(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Set up test fixtures."""
-        from semantic_integration import SemanticEnhancedEntityExtraction
+        from .semantic_integration import SemanticEnhancedEntityExtraction
         cls.enhancer = SemanticEnhancedEntityExtraction()
 
     def test_enhance_entity_extraction(self):
@@ -209,7 +210,7 @@ class TestRealWorldScenarios(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """Set up test fixtures."""
-        from semantic_integration import SemanticEnhancedEntityExtraction
+        from .semantic_integration import SemanticEnhancedEntityExtraction
         cls.enhancer = SemanticEnhancedEntityExtraction()
 
     def test_scenario_theft_variation(self):

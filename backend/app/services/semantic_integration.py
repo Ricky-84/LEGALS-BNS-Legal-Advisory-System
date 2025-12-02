@@ -1,10 +1,11 @@
 """
 Integration of Semantic Service with existing crime detection system
+Implemented by: Vaishnav
 """
 import logging
 from typing import List, Dict, Any
-from semantic_service import SemanticMappingService, SemanticCache
-from semantic_config import (
+from .semantic_service import SemanticMappingService, SemanticCache
+from .semantic_config import (
     SEMANTIC_SIMILARITY_THRESHOLD,
     EMBEDDING_MODEL,
     ENABLE_SEMANTIC_ENHANCEMENT

@@ -1,6 +1,7 @@
 """
 Semantic Similarity Service
 Provides semantic matching for legal action terms using sentence transformers
+Implemented by: Vaishnav
 """
 import pickle
 import logging
